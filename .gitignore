@@ -1,0 +1,29 @@
+# Ignore Microsoft Word temporary files
+~.docx
+*.tmp
+
+# Ignore macOS system files
+.DS_Store
+EOL
+
+# 5. Add placeholder files so Git can track the empty directories
+echo "Adding .gitkeep files to track directories..."
+touch "1_professional_statement/.gitkeep"
+touch "2_analyzing_network_structure_&_security/.gitkeep"
+touch "3_conducting_a_security_audit/.gitkeep"
+touch "4_identifying_vulnerabilities_for_a_small-business/.gitkeep"
+touch "5_using_Linux_commands_to_manage_file_permissions/.gitkeep"
+touch "6_applying_filters_to_SQL_queries/.gitkeep"
+touch "7_documenting_incident_handler's_journal/.gitkeep"
+touch "8_security_importing_&_parsing_a_text_file/.gitkeep"
+touch "9_cloud_server_hardening_with_OCI/.gitkeep"
+touch "10_Certifications/.gitkeep" # <-- Added this line
+
+# 6. Make the first commit
+echo "Making initial commit..."
+git add .
+git commit -m "Initial commit: Set up specific portfolio directory structure"
+
+echo ""
+echo "✅ Success! Your 'Cybersecurity-Portfolio' repository is ready with the new structure."
+echo "Next steps: Add your project files to the new folders."
