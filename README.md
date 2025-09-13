@@ -30,8 +30,8 @@ This section contains projects from my Google Cybersecurity certification, as we
 ## Certifications
 
 * **Google Cybersecurity Professional Certificate** - Coursera, 2025
-    * [View Credly Badge](https://www.credly.com/go/l/d4283c0f)
-    * [View Coursera Certificate](https://www.coursera.org/account/accomplishments/professional-cert/P4B9PR1NMVVf)
+    * [View Credly Badge](https://www.credly.com/go/r40cBjqO)
+    * [View Coursera Certificate](https://coursera.org/verify/professional-cert/PI4BPP81NMYI)
 
 ## Contact
 
