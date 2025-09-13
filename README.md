@@ -1,46 +1,39 @@
 # Ryan Duckworth's Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio! I am an aspiring Cybersecurity Analyst with a passion for protecting digital assets and a foundational knowledge of security principles, threat detection, and incident response. I recently completed the **Google Cybersecurity Professional Certificate** and am eager to apply my skills in a professional setting.
+A detail-oriented and proactive Cybersecurity Analyst with a passion for protecting digital assets and a foundational knowledge of security principles. Eager to apply skills learned from the **Google Cybersecurity Professional Certificate** in a professional setting to contribute to threat detection and incident response efforts.
 
----
+## Skills & Competencies
 
-### Skills & Competencies
-
-* **Security Principles:** SIEM Tools, Intrusion Detection Systems (IDS), Cryptography, Cloud Security
-* **Tools & Technologies:** Wireshark, Nmap, SQL, Python, Linux/Bash, Oracle Cloud Infrastructure (OCI)
-* **Operating Systems:** Windows, Linux (KALI / Ubuntu)
+* **Security Principles:** SIEM Tools, Intrusion Detection Systems (IDS), Cryptography & Data Integrity, Cloud Security
+* **Tools & Technologies:** Wireshark, Nmap, SQL, Python, Java, Linux/Bash, Oracle Cloud Infrastructure (OCI)
+* **Operating Systems:** Windows, Linux (Kali / Ubuntu)
 * **Key Areas:** Network Security, Threat Analysis, Incident Response, Vulnerability Management
 
----
+## Portfolio Projects
 
-### Portfolio Projects
+This section contains projects from my Google Cybersecurity certification, as well as additional projects I have developed since.
 
-This section contains the projects I completed as part of my Google Cybersecurity certification with additional projects I have been exploring since completion. (Additional projects are listed after #8 below)
+| Project Title                                                              | Category                         |
+| :------------------------------------------------------------------------- | :------------------------------- |
+| [01. Professional Statement](./01_professional_statement/)                 | Career Development               |
+| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_&_security/) | Network Security                 |
+| [03. Conducting a Security Audit](./03_conducting_a_security_audit/)       | Risk Management                  |
+| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small-business/) | Vulnerability Assessment         |
+| [05. Managing File Permissions in Linux](./05_using_Linux_commands_to_manage_file_permissions/) | Linux Administration             |
+| [06. Applying Filters to SQL Queries](./06_applying_filters_to_SQL_queries/) | SQL & Data Analysis              |
+| [07. Documenting an Incident Handler's Journal](./07_documenting_incident_handler's_journal/) | Incident Response                |
+| [08. Importing & Parsing a Text File with Python](./08_security_importing_&_parsing_a_text_file/) | Python & Automation              |
+| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_OCI/) | Cloud Security                   |
+| [10. Certifications](./10_Certifications/)                                 | Professional Development         |
+| [11. Data Integrity Verification Tool](./11_data_integrity_verifier/)      | Cryptography / Java Development  |
 
-| Project Title                                        | Category                   |
-| ---------------------------------------------------- | -------------------------- |
-| **1. Professional Statement** | Career Development         |
-| **2. Analyzing Network Structure & Security** | Network Security           |
-| **3. Conducting a Security Audit** | Risk Management            |
-| **4. Identifying Vulnerabilities for a Small Business** | Vulnerability Assessment   |
-| **5. Managing File Permissions in Linux** | Linux Administration       |
-| **6. Applying Filters to SQL Queries** | SQL & Data Analysis        |
-| **7. Documenting an Incident Handler's Journal** | Incident Response          |
-| **8. Importing & Parsing a Text File with Python** | Python & Automation        |
-| **9. Cloud Server Hardening with OCI** | Cloud Security             |
-| **10. Certifications** | Professional Development   |
+## Certifications
 
----
+* **Google Cybersecurity Professional Certificate** - Coursera, 2025
+    * [View Credly Badge](https://www.credly.com/go/l/d4283c0f)
+    * [View Coursera Certificate](https://www.coursera.org/account/accomplishments/professional-cert/P4B9PR1NMVVf)
 
-### Certifications
+## Contact
 
-* **Google Cybersecurity Professional Certificate** - _Coursera, 2025_
-    * [https://www.credly.com/go/r40cBjqO]
-    * [https://www.coursera.org/account/accomplishments/professional-cert/PI4BPP81NMYI]
-
----
-
-### Contact
-
-* **LinkedIn:** [https://www.linkedin.com/in/rduckworthfl333]
+* **LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333)
 * **Email:** rduckworthfl@gmail.com
