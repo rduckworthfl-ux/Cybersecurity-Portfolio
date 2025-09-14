@@ -1,13 +1,12 @@
-import java.util.*;
-import java.util.Scanner;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.security.DigestInputStream;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.security.DigestInputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Scanner;
 
 
 public class FileIntegrityVerifier {
@@ -31,20 +30,14 @@ public class FileIntegrityVerifier {
             }
 
             switch (choice) {
-                case 1:
-                    //System.out.println("Generate hash functionality coming soon...");
-                    generateHash(scanner); // Replaces the "coming soon" placeholder
-                    break;
-                case 2:
-                    //System.out.println("Verify integrity functionality coming soon...");
-                    verifyIntegrity(scanner); // Replaces the "coming soon" placeholder
-                    break;
-                case 3:
+                case 1 -> generateHash(scanner); // Replaces the "coming soon" placeholder
+                case 2 -> verifyIntegrity(scanner); // Replaces the "coming soon" placeholder
+                case 3 -> {
                     System.out.println("Exiting the program. Goodbye!");
                     scanner.close(); // Important close the scanner to prevent resource leaks
                     return; // This exits the main method, ending the program
-                default:
-                    System.out.println("Invalid choice. Please select a valid option (1-3).");
+                }
+                default -> System.out.println("Invalid choice. Please select a valid option (1-3).");
             }
         }
     }
@@ -109,7 +102,9 @@ public class FileIntegrityVerifier {
             DigestInputStream dis = new DigestInputStream(fis, md)) {
             
             // 3. Read the file. The DigestInputStream does the hashing automatically.
-            while (dis.read() != -1) ; // This loop reads the file until the end
+            while (dis.read() != -1) {
+                // Reading file until the end; DigestInputStream updates the digest automatically
+            }
 
             // 4. Get the resulting hash digest from the MessageDigest instance
             md = dis.getMessageDigest();
