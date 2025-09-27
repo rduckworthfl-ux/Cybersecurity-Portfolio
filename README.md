@@ -26,6 +26,8 @@ This section contains projects from my Google Cybersecurity certification, as we
 | [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_OCI/) | Cloud Security                   |
 | [10. Certifications](./10_Certifications/)                                 | Professional Development         |
 | [11. Data Integrity Verification Tool](./11_data_integrity_verifier/)      | Cryptography / Java Development  |
+| [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing |
+| [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/) | Network Security / System Administration |
 
 ## Certifications
 
