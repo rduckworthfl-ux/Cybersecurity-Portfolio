@@ -3,7 +3,6 @@
 A detail-oriented and proactive Cybersecurity Analyst with a passion for protecting digital assets and a foundational knowledge of security principles. Eager to apply skills learned from the **Google Cybersecurity Professional Certificate** in a professional setting to contribute to threat detection and incident response efforts.
 
 ## Skills & Competencies
-## Skills & Competencies
 
 * **Security Principles:** SIEM Tools, Intrusion Detection Systems (IDS), Cryptography & Data Integrity, Cloud Security, **Defense-in-Depth, Principle of Least Privilege, Network Segmentation, Attack Surface Reduction, Risk Assessment & Prioritization.**
 
