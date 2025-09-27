@@ -56,12 +56,13 @@ The `Get-SmbShare` cmdlet was used to list all active network shares and identif
 ```powershell
 Get-SmbShare
 ```
+
+![A sanitized PowerShell terminal showing the use of Get-SmbShare to identify a rogue 'Users' share and Remove-SmbShare to successfully remediate it.](image-2.png)
+
 The `Remove-SmbShare` cmdlet was then used to immediately destroy the unauthorized share, closing the exposure vector.
 ```powershell
 Remove-SmbShare -Name "Users" -Confirm:$false
 ```
-
-![A sanitized PowerShell terminal showing the use of Get-SmbShare to identify a rogue 'Users' share and Remove-SmbShare to successfully remediate it.](image-2.png)
 
 **Lesson Learned:** This incident provided a critical lesson on the dangers of seemingly simple UI toggles and the importance of post-configuration auditing to verify that no unintended security changes have occurred.
 
