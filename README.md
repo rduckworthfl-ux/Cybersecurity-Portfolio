@@ -17,19 +17,21 @@ A detail-oriented and proactive Cybersecurity Analyst with a passion for protect
 This section contains projects from my Google Cybersecurity certification, as well as additional projects I have developed since.
 
 | Project Title                                                              | Category                         |
-| :------------------------------------------------------------------------- | :------------------------------- |
-| [01. Professional Statement](./01_professional_statement/)                 | Career Development               |
-| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_&_security/) | Network Security                 |
-| [03. Conducting a Security Audit](./03_conducting_a_security_audit/)       | Risk Management                  |
-| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small-business/) | Vulnerability Assessment         |
-| [05. Managing File Permissions in Linux](./05_using_Linux_commands_to_manage_file_permissions/) | Linux Administration             |
-| [06. Applying Filters to SQL Queries](./06_applying_filters_to_SQL_queries/) | SQL & Data Analysis              |
-| [07. Documenting an Incident Handler's Journal](./07_documenting_incident_handler's_journal/) | Incident Response                |
-| [08. Importing & Parsing a Text File with Python](./08_security_importing_&_parsing_a_text_file/) | Python & Automation              |
-| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_OCI/) | Cloud Security                   |
-| [10. Certifications]([./10_Certifications/])                                 | Professional Development         |
-| [11. Data Integrity Verification Tool]([./11_data_integrity_verifier/])      | Cryptography / Java Development  |
-| [12. Vulnerability Assessment and Penetration Test for a SMB]([./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/]) | Vulnerability Assessment / Penetration Testing |
+| Project Title                                                              | Category                                     |
+| :------------------------------------------------------------------------- | :------------------------------------------- |
+| [01. Professional Statement](./01_professional_statement/)                 | Career Development                           |
+| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_and_security/) | Network Security                             |
+| [03. Conducting a Security Audit](./03_conducting_a_security_audit/)       | Risk Management                              |
+| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small_business/) | Vulnerability Assessment                     |
+| [05. Managing File Permissions in Linux](./05_managing_file_permissions_in_linux/) | Linux Administration                         |
+| [06. Applying Filters to SQL Queries](./06_applying_filters_to_sql_queries/) | SQL & Data Analysis                          |
+| [07. Documenting an Incident Handler's Journal](./07_documenting_an_incident_handlers_journal/) | Incident Response                            |
+| [08. Importing & Parsing a Text File with Python](./08_importing_and_parsing_a_text_file/) | Python & Automation                          |
+| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_oci/) | Cloud Security                               |
+| [10. Certifications](./10_Certifications/)                                 | Professional Development                     |
+| [11. Data Integrity Verification Tool](./11_data_integrity_verifier/)      | Cryptography / Java Development              |
+| [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing |
+| [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/) | Network Security / System Administration     |
 | [13. Secure LAN File Share Configuration]([./13_Secure_LAN_File_Share_Configuration/]) | Network Security / System Administration |
 
 ## Certifications
