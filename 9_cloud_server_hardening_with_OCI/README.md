@@ -122,7 +122,58 @@ This section details the hands-on technical phases of the engagement. Each step 
 
 The final configuration resulted in a multi-layered, secure architecture that provides robust protection for the server and its data, both at rest and in transit.
 
-![Network Architecture Diagram](architecture_diagram.png)
+```Network Architecture Diagram
++--------------------------------------------------+
+|                                                  |
+|                YOUR HOME NETWORK                 |
+|                                                  |
+|  +--------------------------------------------+  |
+|  |                                            |  |
+|  |               Windows 11 PC                |  |
+|  |                                            |  |
+|  |  +--------------+     +---------------+    |  |
+|  |  |    WinSCP    |     |    Kali WSL   |    |  |
+|  |  +--------------+     +---------------+    |  |
+|  |         |                    |             |  |
+|  +--------------------------------------------+  |
+|          |                    |                  |
++----------|--------------------|------------------+
+           |                    |
+     (Your Router)        (The Internet) --->
+           |                    |
+           |                    |
++----------|--------------------|------------------+
+| SFTP (Port 22) <------> SSH (Port 22)           |
+| (File Transfers)      (Admin Commands)         |
+|                                                  |
+|      ORACLE CLOUD INFRASTRUCTURE (OCI)           |
+|                                                  |
+|  +--------------------------------------------+  |
+|  |        Virtual Cloud Network (VCN)         |  |
+|  |                                            |  |
+|  |  +--------------------------------------+  |  |
+|  |  |       Network Security Group         |  |  | (Layer 1: Cloud Firewall)
+|  |  |  (Allows Port 22 & 80/443)           |  |  |
+|  |  +--------------------------------------+  |  |
+|  |                   |                        |  |
+|  |                   V                        |  |
+|  |  +--------------------------------------+  |  |
+|  |  |          Your Ubuntu Server          |  |  |
+|  |  |                                      |  |  |
+|  |  |  +---------------------------------+ |  |  |
+|  |  |  | UFW Firewall                    | |  |  | (Layer 2: OS Firewall)
+|  |  |  +---------------------------------+ |  |  |
+|  |  |  | Fail2Ban                        | |  |  | (Layer 4: Active Defense)
+|  |  |  +---------------------------------+ |  |  |
+|  |  |  | SSH Service (Hardened)          | |  |  | (Layer 3: Secure Access)
+|  |  |  +---------------------------------+ |  |  |
+|  |  |  | Storage Folder                  | |  |  |
+|  |  |  +---------------------------------+ |  |  |
+|  |  +--------------------------------------+  |  |
+|  +--------------------------------------------+  |
+|                                                  |
++--------------------------------------------------+
+```
 
 * **Layer 1 (Cloud Firewall):** The OCI Network Security Group (NSG) acts as the first gatekeeper, allowing only approved traffic from specified sources to reach the server's virtual network card.
 * **Layer 2 (OS Firewall):** The UFW firewall on the Ubuntu server provides a second layer of packet filtering, ensuring that even if the NSG were compromised, the host itself remains protected.
