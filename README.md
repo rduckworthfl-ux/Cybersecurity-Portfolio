@@ -38,4 +38,4 @@ This section contains projects from my Google Cybersecurity certification, as we
 ## Contact
 
 * **LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333)
-* **Email:** rduckworthfl@gmail.com
+* **Email:** 8eq5iybyg@mozmail.com
