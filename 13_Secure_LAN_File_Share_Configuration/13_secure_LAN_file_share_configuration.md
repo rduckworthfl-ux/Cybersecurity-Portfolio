@@ -22,7 +22,8 @@ This project demonstrates a practical understanding of several key cybersecurity
 
 3.  **Network Segmentation and Attack Surface Reduction**
     The host's attack surface was minimized through the strategic use of a third-party firewall (Bitdefender) and context-aware security policies.
-    ![A screenshot of the Bitdefender firewall rule allowing inbound TCP traffic on port 445 only from the local Home/Office network.](image.png)
+
+![A screenshot of the Bitdefender firewall rule allowing inbound TCP traffic on port 445 only from the local Home/Office network.](image.png)    
 
 ---
 
@@ -39,6 +40,7 @@ The project involved a three-phase troubleshooting process that highlights a sys
 **Challenge:** After successful authentication, attempts to view the folder's contents resulted in an access denied error.
 
 **Root Cause Analysis:** The built-in **Effective Access** tool was used to diagnose the issue, revealing that overly restrictive Share Permissions were taking precedence over the correctly configured NTFS permissions.
+
 ![The Windows 'Effective Access' tool showing that a user's permissions are being limited by the 'Share' security layer.](image-1.png)
 
 **Resolution:** The `shareuser` account was granted appropriate permissions at the Share Level, resolving the conflict.
@@ -58,9 +60,12 @@ The `Remove-SmbShare` cmdlet was then used to immediately destroy the unauthoriz
 ```powershell
 Remove-SmbShare -Name "Users" -Confirm:$false
 ```
-**![A sanitized PowerShell terminal showing the use of Get-SmbShare to identify a rogue 'Users' share and Remove-SmbShare to successfully remediate it.](image-2.png)
+
+![A sanitized PowerShell terminal showing the use of Get-SmbShare to identify a rogue 'Users' share and Remove-SmbShare to successfully remediate it.](image-2.png)
 
 **Lesson Learned:** This incident provided a critical lesson on the dangers of seemingly simple UI toggles and the importance of post-configuration auditing to verify that no unintended security changes have occurred.
+
+---
 
 ### Technical Implementation Details
 **Objective:** To create a dedicated, secure folder at `C:\LANShare`.
@@ -71,17 +76,17 @@ An elevated PowerShell terminal was used to create a new, non-privileged local u
 New-LocalUser -Name "shareuser" -PasswordNeverExpires -Password (Read-Host -AsSecureString "Create a password for the 'shareuser' account")
 ```
 
-**![A sanitized, elevated PowerShell terminal showing the successful creation of the non-privileged 'shareuser' local account.](image-3.png)
+![A sanitized, elevated PowerShell terminal showing the successful creation of the non-privileged 'shareuser' local account.](image-3.png)
 
 **NTFS Permission Configuration (Least Privilege):**
 Inherited permissions on `C:\LANShare` were disabled, and a new ACL was constructed, granting "Modify" permissions to `shareuser`.
 
-**![The final NTFS permissions for the LANShare folder, showing the 'shareuser' account with 'Modify' access and all other unique identifiers redacted.](image-4.png)
+![The final NTFS permissions for the LANShare folder, showing the 'shareuser' account with 'Modify' access and all other unique identifiers redacted.](image-4.png)
 
 **SMB Share Configuration (Least Privilege):**
 The `shareuser` principal was granted "Change" permissions on the share, and the "Everyone" principal was removed.
 
-**![The final Share Permissions for the LANShare folder, showing the 'shareuser' principal granted 'Full Control' at the share level.](image-5.png)
+![The final Share Permissions for the LANShare folder, showing the 'shareuser' principal granted 'Full Control' at the share level.](image-5.png)
 
 ---
 
