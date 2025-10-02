@@ -1,12 +1,43 @@
+<!-- Banner -->
+<p align="center">
+  <img src="aspida-banner.png" alt="Aspida Security Banner" width="100%"/>
+</p>
+
+<!-- Certification Badge -->
 <div align="center">
 
-# 🎓 Google Cybersecurity Professional Certificate  
-
 <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/print">
-  <img src="google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="200"/>
+  <img src="google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="160"/>
 </a>  
 
+<br/>
+
 [View Credly Badge](https://www.credly.com/go/r40cBjqO) • [View Coursera Certificate](https://coursera.org/verify/professional-cert/PI4BPP81NMYI)
+
+</div>
+
+---
+
+<!-- Main Header -->
+<h1 align="center">🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
+
+<p align="center">
+Detail‑oriented and proactive <b>Cybersecurity Analyst</b> with a passion for protecting digital assets.  
+Strong foundation in <b>threat detection, incident response, and vulnerability management</b>, backed by hands‑on projects and professional certification.
+</p>
+
+---
+
+<!-- Skill Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Ubuntu-blue?logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windows-Server%20%7C%20Client-blue?logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Networking-Wireshark%20%7C%20Nmap-orange?logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Security-Nessus%20%7C%20Metasploit-red?logo=hackaday&logoColor=white" />
+  <img src="https://img.shields.io/badge/Programming-Python%20%7C%20Java%20%7C%20SQL-green?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scripting-Bash%20%7C%20PowerShell-yellow?logo=gnu-bash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloud-Oracle%20Cloud%20(OCI)-purple?logo=oracle&logoColor=white" />
+</p>
 
 ---
 
@@ -90,3 +121,4 @@ Technical Documentation & Reporting
 ---
 
 <p align="center"><i>“Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”</i></p>
+
