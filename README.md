@@ -1,11 +1,14 @@
+<div align="center">
+
 <!-- Banner -->
-<p align="center">
+<p>
   <img src="aspida-banner.png" alt="Aspida Security Banner" width="100%"/>
 </p>
 
-<!-- Certification Badge -->
-<div align="center">
+<!-- Main Header -->
+<h1>🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
 
+<!-- Certification Badge -->
 <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/print">
   <img src="google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="160"/>
 </a>  
@@ -14,14 +17,9 @@
 
 [View Credly Badge](https://www.credly.com/go/r40cBjqO) • [View Coursera Certificate](https://coursera.org/verify/professional-cert/PI4BPP81NMYI)
 
-</div>
-
 ---
 
-<!-- Main Header -->
-<h1 align="center">🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
-
-<p align="center">
+<p>
 Detail‑oriented and proactive <b>Cybersecurity Analyst</b> with a passion for protecting digital assets.  
 Strong foundation in <b>threat detection, incident response, and vulnerability management</b>, backed by hands‑on projects and professional certification.
 </p>
@@ -29,29 +27,7 @@ Strong foundation in <b>threat detection, incident response, and vulnerability m
 ---
 
 <!-- Skill Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Ubuntu-blue?logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Windows-Server%20%7C%20Client-blue?logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Networking-Wireshark%20%7C%20Nmap-orange?logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Security-Nessus%20%7C%20Metasploit-red?logo=hackaday&logoColor=white" />
-  <img src="https://img.shields.io/badge/Programming-Python%20%7C%20Java%20%7C%20SQL-green?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scripting-Bash%20%7C%20PowerShell-yellow?logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloud-Oracle%20Cloud%20(OCI)-purple?logo=oracle&logoColor=white" />
-</p>
-
----
-
-<h1 align="center">🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
-
-<p align="center">
-Detail‑oriented and proactive <b>Cybersecurity Analyst</b> with a passion for protecting digital assets and a strong foundation in security principles.  
-Eager to apply technical expertise and hands‑on experience from the <b>Google Cybersecurity Professional Certificate</b> to contribute to <b>threat detection, incident response, and vulnerability management</b>.
-</p>
-
----
-
-<!-- Tech/Skill Badges -->
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Ubuntu-blue?logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Windows-Server%20%7C%20Client-blue?logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/Networking-Wireshark%20%7C%20Nmap-orange?logo=wireshark&logoColor=white" />
@@ -66,30 +42,21 @@ Eager to apply technical expertise and hands‑on experience from the <b>Google 
 ## 🧰 Skills & Competencies
 
 ### 🔐 Security Principles
-**Defense-in-Depth** & **Principle of Least Privilege**  
-**Network Segmentation** & **Attack Surface Reduction**  
-Risk Assessment, Prioritization & Mitigation  
-Cryptography & Data Integrity  
-Cloud Security & OCI Hardening  
-SIEM Tools, IDS/IPS, Log Analysis  
+**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction**  
+Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS  
 
 ### 🛠️ Tools & Technologies
-**Network & Security:** Wireshark, Nmap, Nessus, Metasploit  
-**Programming & Scripting:** Python, Java, SQL, Bash, PowerShell  
-**Virtualization & Cloud:** VMware Workstation, Oracle Cloud Infrastructure (OCI)  
-**Forensics & Analysis:** Packet Capture, Vulnerability Scanning, System Auditing  
+**Network & Security:** Wireshark • Nmap • Nessus • Metasploit  
+**Programming & Scripting:** Python • Java • SQL • Bash • PowerShell  
+**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI)  
+**Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing  
 
 ### 💻 Operating Systems
-Windows (Client & Server)  
-Linux (Kali, Ubuntu)  
+Windows (Client & Server) • Linux (Kali, Ubuntu)  
 
 ### 🎯 Core Competencies
-Network Security & Secure Configuration  
-Penetration Testing & Exploit Research  
-Threat Analysis & Incident Response  
-Vulnerability Management & Patch Strategy  
-System Hardening & Compliance  
-Technical Documentation & Reporting  
+Network Security • Penetration Testing • Threat Analysis • Incident Response  
+Vulnerability Management • System Hardening • Compliance • Technical Documentation  
 
 ---
 
@@ -115,11 +82,9 @@ Technical Documentation & Reporting
 
 ## 📫 Contact
 
-- **LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333)  
-- **Email:** 8eq5iybyg@mozmail.com  
+**LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333)  
+**Email:** 8eq5iybyg@mozmail.com  
 
 ---
 
-<p align="center"><i>“Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”</i></p>
-
-
+<p><i>“Cybersecurity
