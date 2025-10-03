@@ -87,4 +87,9 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 ---
 
-<p><i>“Cybersecurity
+<p><i>“Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”</i></p>
+
+</div>
+
+
+
