@@ -65,7 +65,7 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 ## 🚀 Flagship Project: Vulcan Scan
 
 <p>
-  <img src="Gemini_Generated_Image_n0agusn0agusn0ag(1).png" alt="Vulcan Scan Logo" width="200"/>
+  <img src="vulcan-scan_logo.png" alt="Vulcan Scan Logo" width="200"/>
 </p>
 
 <p>
