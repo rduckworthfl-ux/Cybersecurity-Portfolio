@@ -60,6 +60,34 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 ---
 
+<div align="center">
+
+## 🚀 Flagship Project: Vulcan Scan
+
+<p>
+  <img src="Gemini_Generated_Image_n0agusn0agusn0ag(1).png" alt="Vulcan Scan Logo" width="200"/>
+</p>
+
+<p>
+  As the lead developer, I am building <b>Vulcan Scan</b>, a next-generation vulnerability management and security monitoring platform. <br/>
+  It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
+</p>
+
+<table align="center" border="0" cellpadding="10" style="border: none;">
+  <tr>
+    <td style="border: none;"><img src="vulcan-scan_Security-Dashboard.png" alt="Vulcan Scan Dashboard" width="420"/></td>
+    <td style="border: none;"><img src="vulcan-scan_Vuln-Mgmt.png" alt="Vulcan Scan Vulnerability Management" width="420"/></td>
+  </tr>
+  <tr align="center">
+    <td style="border: none;"><b>Main Security Dashboard</b></td>
+    <td style="border: none;"><b>Vulnerability Management View</b></td>
+  </tr>
+</table>
+
+</div>
+
+---
+
 ## 📂 Portfolio Projects
 
 | Project Title | Category |
@@ -90,6 +118,7 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 <p><i>“Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”</i></p>
 
 </div>
+
 
 
 
