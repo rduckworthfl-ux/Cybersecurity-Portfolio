@@ -57,19 +57,20 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 <div align="center">
 
-## 🤖 Try My Favorite AI Research Tool
+## 🚀 My New Daily Driver: The Comet AI Browser
 
-<p>I use Perplexity Pro every day for security research, coding, and learning. It's an essential part of my workflow.<br/>
-Get a <b>free month of Pro ($20 value) on me</b> by using my affiliate link below!</p>
+<p>I've completely switched my workflow to the <b>Comet AI Browser</b>, and it's fantastic. It's incredibly snappy, responsive, and integrates all my Chrome extensions into a clean, intuitive UI. <br/>The built-in AI assistant is a game-changer—it can run automated tasks and access multiple AI models (like GPT-4 and Claude 3) right from one spot. I use it for all my security research and coding.</p>
+
+<p>Try it out and get a <b>free month of Perplexity Pro ($20 value) on me!</b></p>
 
 <a href="https://pplx.ai/rduckworth95327" style="display: inline-block; margin: 5px;">
   <img src="comet-pro-affiliate-link-promo.png" alt="Get Comet Pro Free" width="220">
 </a>
 
-<p><b>How to get your free trial:</b>
-<br> 1. Click the image above.
-<br> 2. Sign up and log in.
-<br> 3. Enjoy your free month of Pro!</p>
+<p><b>How to get your free month of Pro:</b>
+<br> 1. Click the image above to download Comet.
+<br> 2. Install it and sign up/log in.
+<br> 3. Your free month of Perplexity Pro will be automatically applied!</p>
 
 </div>
 
