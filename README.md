@@ -1,12 +1,10 @@
 <div align="center">
 
-<p>
-  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspida-banner.png" alt="Aspida Security Banner" width="100%"/>
-</p>
+![Aspida Security Banner](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspida-banner.png)
 
 <h1>🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
 
-<a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/print">
+<a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
   <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="160"/>
 </a>  
 
@@ -16,10 +14,8 @@
 
 ---
 
-<p>
-Detail‑oriented and proactive <b>Cybersecurity Analyst</b> with a passion for protecting digital assets.  
-Strong foundation in <b>threat detection, incident response, and vulnerability management</b>, backed by hands‑on projects and professional certification.
-</p>
+Detail-oriented and proactive **Cybersecurity Analyst** with a passion for protecting digital assets.
+Strong foundation in **threat detection, incident response, and vulnerability management**, backed by hands-on projects and professional certification.
 
 ---
 
@@ -57,20 +53,20 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 <div align="center">
 
-## 🚀 My New Daily Driver: The Comet AI Browser
+## 🚀 My Daily Driver: The Comet AI Browser
 
-<p>I've completely switched my workflow to the <b>Comet AI Browser</b>, and it's fantastic. It's incredibly snappy, responsive, and integrates all my Chrome extensions into a clean, intuitive UI. <br/>The built-in AI assistant is a game-changer—it can run automated tasks and access multiple AI models (like GPT-4 and Claude 3) right from one spot. I use it for all my security research and coding.</p>
+I've switched my workflow to the **Comet AI Browser**, and it's fantastic. It's incredibly snappy, responsive, and integrates all my Chrome extensions into a clean, intuitive UI. The built-in AI assistant is a game-changer—it can run automated tasks and access multiple AI models (like GPT-4 and Claude 3) right from one spot. I use it for all my security research and coding.
 
-<p>Try it out and get a <b>free month of Perplexity Pro ($20 value) on me!</b></p>
+Try it out and get a **free month of Perplexity Pro ($20 value) on me!**
 
 <a href="https://pplx.ai/rduckworth95327" style="display: inline-block; margin: 5px;">
   <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/comet-pro-affiliate-link-promo.png" alt="Get Comet Pro Free" width="220">
 </a>
 
-<p><b>How to get your free month of Pro:</b>
-<br> 1. Click the image above to download Comet.
-<br> 2. Install it and sign up/log in.
-<br> 3. Your free month of Perplexity Pro will be automatically applied!</p>
+**How to get your free month of Pro:**
+1. Click the image above to download Comet.
+2. Install it and sign up/log in.
+3. Your free month of Perplexity Pro will be automatically applied!
 
 </div>
 
@@ -78,16 +74,11 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 <div align="center">
 
-## 🚀 Flagship Project: Vulcan Scan
+## ✨ Flagship Project: Vulcan Scan
 
-<p>
-  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_logo.png" alt="Vulcan Scan Logo" width="200"/>
-</p>
+![Vulcan Scan Logo](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_logo.png)
 
-<p>
-  As the lead developer, I am building <b>Vulcan Scan</b>, a next-generation vulnerability management and security monitoring platform. <br/>
-  It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
-</p>
+As the lead developer, I am building **Vulcan Scan**, a next-generation vulnerability management and security monitoring platform. It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
 
 <p align="center">
   <a href="https://github.com/sponsors/rduckworthfl-ux" style="display: inline-block; margin: 5px;">
@@ -98,16 +89,9 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
   </a>
 </p>
 
-<table align="center" border="0" cellpadding="10" style="border: none;">
-  <tr>
-    <td style="border: none;"><img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Security-Dashboard.png" alt="Vulcan Scan Dashboard" width="420"/></td>
-    <td style="border: none;"><img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Vuln-Mgmt.png" alt="Vulcan Scan Vulnerability Management" width="420"/></td>
-  </tr>
-  <tr align="center">
-    <td style="border: none;"><b>Main Security Dashboard</b></td>
-    <td style="border: none;"><b>Vulnerability Management View</b></td>
-  </tr>
-</table>
+| Main Security Dashboard | Vulnerability Management View |
+| :---: | :---: |
+| ![Vulcan Scan Dashboard](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Security-Dashboard.png) | ![Vulcan Scan Vulnerability Management](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Vuln-Mgmt.png) |
 
 </div>
 
@@ -140,6 +124,6 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 ---
 
-<p><i>“Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”</i></p>
+_"Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”_
 
 </div>
