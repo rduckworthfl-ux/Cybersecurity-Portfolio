@@ -1,14 +1,11 @@
 <div align="center">
 
-<!-- Banner -->
 <p>
   <img src="aspida-banner.png" alt="Aspida Security Banner" width="100%"/>
 </p>
 
-<!-- Main Header -->
 <h1>🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
 
-<!-- Certification Badge -->
 <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/print">
   <img src="google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="160"/>
 </a>  
@@ -26,7 +23,6 @@ Strong foundation in <b>threat detection, incident response, and vulnerability m
 
 ---
 
-<!-- Skill Badges -->
 <p>
   <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Ubuntu-blue?logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Windows-Server%20%7C%20Client-blue?logo=windows&logoColor=white" />
@@ -42,8 +38,7 @@ Strong foundation in <b>threat detection, incident response, and vulnerability m
 ## 🧰 Skills & Competencies
 
 ### 🔐 Security Principles
-**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction**  
-Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS  
+**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS  
 
 ### 🛠️ Tools & Technologies
 **Network & Security:** Wireshark • Nmap • Nessus • Metasploit  
@@ -62,6 +57,26 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 <div align="center">
 
+## 🤖 Try My Favorite AI Research Tool
+
+<p>I use Perplexity Pro every day for security research, coding, and learning. It's an essential part of my workflow.<br/>
+Get a <b>free month of Pro ($20 value) on me</b> by using my affiliate link below!</p>
+
+<a href="https://pplx.ai/rduckworth95327" style="display: inline-block; margin: 5px;">
+  <img src="comet-pro-affiliate-link-promo.png" alt="Get Comet Pro Free" width="220">
+</a>
+
+<p><b>How to get your free trial:</b>
+<br> 1. Click the image above.
+<br> 2. Sign up and log in.
+<br> 3. Enjoy your free month of Pro!</p>
+
+</div>
+
+---
+
+<div align="center">
+
 ## 🚀 Flagship Project: Vulcan Scan
 
 <p>
@@ -75,15 +90,13 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 <p align="center">
   <a href="https://github.com/sponsors/rduckworthfl-ux" style="display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/Sponsor_on_GitHub-Support_the_Project-ea4aaa?logo=githubsponsors" alt="Sponsor on GitHub">
+    <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support%20Me-ea4aaa?logo=githubsponsors&style=for-the-badge" alt="Sponsor on GitHub">
   </a>
   <a href="https://ko-fi.com/vulcanscan" style="display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-Support_the_Project-FF5E5B?logo=kofi" alt="Buy Me a Coffee">
-  </a>
-  <a href="https://pplx.ai/rduckworth95327" style="display: inline-block; margin: 5px;">
-    <img src="comet-pro-affiliate-link-promo.png" alt="Get Comet Pro Free" width="200">
+    <img src="https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-FF5E5B?logo=kofi&style=for-the-badge" alt="Buy Me a Coffee">
   </a>
 </p>
+
 <table align="center" border="0" cellpadding="10" style="border: none;">
   <tr>
     <td style="border: none;"><img src="vulcan-scan_Security-Dashboard.png" alt="Vulcan Scan Dashboard" width="420"/></td>
@@ -129,7 +142,3 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 <p><i>“Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”</i></p>
 
 </div>
-
-
-
-
