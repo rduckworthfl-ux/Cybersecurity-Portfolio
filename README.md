@@ -1,13 +1,13 @@
 <div align="center">
 
 <p>
-  <img src="aspida-banner.png" alt="Aspida Security Banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspida-banner.png" alt="Aspida Security Banner" width="100%"/>
 </p>
 
 <h1>🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
 
 <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/print">
-  <img src="google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="160"/>
+  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="160"/>
 </a>  
 
 <br/>
@@ -64,7 +64,7 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 <p>Try it out and get a <b>free month of Perplexity Pro ($20 value) on me!</b></p>
 
 <a href="https://pplx.ai/rduckworth95327" style="display: inline-block; margin: 5px;">
-  <img src="comet-pro-affiliate-link-promo.png" alt="Get Comet Pro Free" width="220">
+  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/comet-pro-affiliate-link-promo.png" alt="Get Comet Pro Free" width="220">
 </a>
 
 <p><b>How to get your free month of Pro:</b>
@@ -81,7 +81,7 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 ## 🚀 Flagship Project: Vulcan Scan
 
 <p>
-  <img src="vulcan-scan_logo.png" alt="Vulcan Scan Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_logo.png" alt="Vulcan Scan Logo" width="200"/>
 </p>
 
 <p>
@@ -100,8 +100,8 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 <table align="center" border="0" cellpadding="10" style="border: none;">
   <tr>
-    <td style="border: none;"><img src="vulcan-scan_Security-Dashboard.png" alt="Vulcan Scan Dashboard" width="420"/></td>
-    <td style="border: none;"><img src="vulcan-scan_Vuln-Mgmt.png" alt="Vulcan Scan Vulnerability Management" width="420"/></td>
+    <td style="border: none;"><img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Security-Dashboard.png" alt="Vulcan Scan Dashboard" width="420"/></td>
+    <td style="border: none;"><img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Vuln-Mgmt.png" alt="Vulcan Scan Vulnerability Management" width="420"/></td>
   </tr>
   <tr align="center">
     <td style="border: none;"><b>Main Security Dashboard</b></td>
