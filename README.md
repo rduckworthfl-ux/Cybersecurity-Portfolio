@@ -73,6 +73,17 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
   It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
 </p>
 
+<p align="center">
+  <a href="https://github.com/sponsors/rduckworthfl-ux" style="display: inline-block; margin: 5px;">
+    <img src="https://img.shields.io/badge/Sponsor_on_GitHub-Support_the_Project-ea4aaa?logo=githubsponsors" alt="Sponsor on GitHub">
+  </a>
+  <a href="https://ko-fi.com/vulcanscan" style="display: inline-block; margin: 5px;">
+    <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-Support_the_Project-FF5E5B?logo=kofi" alt="Buy Me a Coffee">
+  </a>
+  <a href="https://pplx.ai/rduckworth95327" style="display: inline-block; margin: 5px;">
+    <img src="comet-pro-affiliate-link-promo.png" alt="Get Comet Pro Free" width="200">
+  </a>
+</p>
 <table align="center" border="0" cellpadding="10" style="border: none;">
   <tr>
     <td style="border: none;"><img src="vulcan-scan_Security-Dashboard.png" alt="Vulcan Scan Dashboard" width="420"/></td>
