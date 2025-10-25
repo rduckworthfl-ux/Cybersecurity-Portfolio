@@ -53,27 +53,6 @@ Vulnerability Management • System Hardening • Compliance • Technical Docum
 
 <div align="center">
 
-## 🚀 My Daily Driver: The Comet AI Browser
-
-I've switched my workflow to the **Comet AI Browser**, and it's fantastic. It's incredibly snappy, responsive, and integrates all my Chrome extensions into a clean, intuitive UI. The built-in AI assistant is a game-changer—it can run automated tasks and access multiple AI models (like GPT-4 and Claude 3) right from one spot. I use it for all my security research and coding.
-
-Try it out and get a **free month of Perplexity Pro ($20 value) on me!**
-
-<a href="https://pplx.ai/rduckworth95327" style="display: inline-block; margin: 5px;">
-  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/comet-pro-affiliate-link-promo.png" alt="Get Comet Pro Free" width="220">
-</a>
-
-**How to get your free month of Pro:**
-1. Click the image above to download Comet.
-2. Install it and sign up/log in.
-3. Your free month of Perplexity Pro will be automatically applied!
-
-</div>
-
----
-
-<div align="center">
-
 ## ✨ Flagship Project: Vulcan Scan
 
 ![Vulcan Scan Logo](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_logo.png)
