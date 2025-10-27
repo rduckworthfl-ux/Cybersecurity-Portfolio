@@ -1,15 +1,3 @@
-Okay, I can help with that. Based on the "Secure OS Migration and Endpoint Hardening" document you provided, I've updated the Skills and Projects sections of your `README.md`.
-
-Here are the key additions:
-
-  * **Skills:** Added "Linux Installation & Troubleshooting", "Endpoint Hardening (Linux)", "Firewall Configuration (UFW)", "Antivirus Setup (ClamAV)", and "Browser Security (uBlock Origin)" to reflect the tasks performed in Project 14.
-  * **Projects:** Added a new entry for Project 14, linking to its assumed directory and categorizing it.
-
-Below is the complete updated Markdown code for your `README.md` file.
-
------
-
-```markdown
 <div align="center">
 
 ![Aspida Security Banner](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspida-banner.png)
@@ -119,4 +107,3 @@ As the lead developer, I am building **Vulcan Scan**, a next-generation vulnerab
 _"Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”_
 
 </div>
-```
