@@ -37,11 +37,23 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 **Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS  
 
 ### 🛠️ Tools & Technologies
+
+
 **Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin)
-**Programming & Scripting:** Python • Java • SQL • Bash • PowerShell  
-**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI)  
+
+
+**Programming & Scripting:** Python • Java • SQL • Bash • PowerShell
+
+
+**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI)
+
+
 **Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing 
-**Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis 
+
+
+**Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis
+
+
 
 ### 💻 Operating Systems
 Windows (Client & Server) • Linux (Kali, Ubuntu, Lubuntu) • Linux Installation & Troubleshooting
