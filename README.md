@@ -1,6 +1,6 @@
 <div align="center">
 
-![Aspida Security Banner](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspida-banner.png)
+![Aspida Security Banner](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspidaLogo.png)
 
 <h1>🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
 
@@ -40,7 +40,8 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 **Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin)
 **Programming & Scripting:** Python • Java • SQL • Bash • PowerShell  
 **Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI)  
-**Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing  
+**Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing 
+**Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis 
 
 ### 💻 Operating Systems
 Windows (Client & Server) • Linux (Kali, Ubuntu, Lubuntu) • Linux Installation & Troubleshooting
@@ -53,11 +54,12 @@ Vulnerability Management • System Hardening • Endpoint Hardening (Linux) •
 
 <div align="center">
 
-## ✨ Flagship Project: Vulcan Scan
+## ✨ Flagship Project: Vappler
 
-<img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_logo.png" alt="Vulcan Scan Logo" width="259" height="259">
+<img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vapplerLogo.png" alt="Vappler Logo" width="259" height="259">
 
-As the lead developer, I am building **Vulcan Scan**, a next-generation vulnerability management and security monitoring platform. It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
+As the lead developer, I am building **Vappler** (*Vulnerability Attack Path Doppler*), a next-generation vulnerability management and security monitoring platform. It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
+
 
 <p align="center">
   <a href="https://github.com/sponsors/rduckworthfl-ux" style="display: inline-block; margin: 5px;">
@@ -69,8 +71,8 @@ As the lead developer, I am building **Vulcan Scan**, a next-generation vulnerab
 </p>
 
 | Main Security Dashboard | Vulnerability Management View |
-| :---: | :---: |
-| ![Vulcan Scan Dashboard](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Security-Dashboard.png) | ![Vulcan Scan Vulnerability Management](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Vuln-Mgmt.png) |
+| :---: |
+| ![Vappler Vulnerability Management](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulnerabilities-found.png) |
 
 </div>
 
@@ -94,6 +96,8 @@ As the lead developer, I am building **Vulcan Scan**, a next-generation vulnerab
 | [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing |
 | [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/) | Network Security / System Administration |
 | [14. Secure OS Migration and Endpoint Hardening](./14_secure_os_migration_and_endpoint_hardening_for_legacy_hardware/) | OS Migration / Endpoint Security / Linux Hardening |
+| [15. Port Reservation Forensic Investigation](./15_Port_Reservation_Forensic_Investigation/) | Incident Response / Forensics Analysis / System Administration |
+
 
 ---
 
