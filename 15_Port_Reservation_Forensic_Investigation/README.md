@@ -358,7 +358,3 @@ This incident represents an excellent real-world example of:
 **Final Verdict:** System is secure, incident is resolved, preventive measures implemented.
 
 **END OF INCIDENT REPORT**
-```
-
-
-
