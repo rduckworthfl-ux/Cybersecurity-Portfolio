@@ -70,7 +70,7 @@ As the lead developer, I am building **Vappler** (*Vulnerability Attack Path Dop
   </a>
 </p>
 
-| Main Security Dashboard | Vulnerability Management View |
+| Vulnerability Management View |
 | :---: |
 | ![Vappler Vulnerability Management](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulnerabilities-found.png) |
 
