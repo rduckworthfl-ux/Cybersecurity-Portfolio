@@ -77,7 +77,7 @@ As the lead developer, I am building **Vappler** (*Vulnerability Attack Path Dop
   <a href="https://github.com/sponsors/rduckworthfl-ux" style="display: inline-block; margin: 5px;">
     <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support%20Me-ea4aaa?logo=githubsponsors&style=for-the-badge" alt="Sponsor on GitHub">
   </a>
-  <a href="https://ko-fi.com/vulcanscan" style="display: inline-block; margin: 5px;">
+  <a href="https://ko-fi.com/vappler" style="display: inline-block; margin: 5px;">
     <img src="https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-FF5E5B?logo=kofi&style=for-the-badge" alt="Buy Me a Coffee">
   </a>
 </p>
