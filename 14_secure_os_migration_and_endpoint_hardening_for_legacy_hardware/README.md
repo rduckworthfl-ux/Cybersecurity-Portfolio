@@ -1,108 +1,103 @@
-<div align="center">
-
-![Aspida Security Banner](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspida-banner.png)
-
-<h1>🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
-
-<a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
-  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="400"/>
-</a>  
-
-<br/>
-
-[View Credly Badge](https://www.credly.com/go/r40cBjqO) • [View Coursera Certificate](https://coursera.org/verify/professional-cert/PI4BPP81NMYI)
+# Case Study: Secure OS Migration and Endpoint Hardening for Legacy Hardware
 
 ---
 
-Detail-oriented and proactive **Cybersecurity Analyst** with a passion for protecting digital assets.
-Strong foundation in **threat detection, incident response, and vulnerability management**, backed by hands-on projects and professional certification.
+## 1. Executive Summary
+
+This project involved reviving an older HP 15-ba077cl laptop initially running a slow and potentially insecure Windows installation. The primary goal was to replace Windows with a lightweight, secure, and performant Linux distribution suitable for a non-technical home user (referred to as the "customer"). The project successfully navigated significant hardware compatibility issues during bootable media creation and OS booting, ultimately resulting in a stable Lubuntu 22.04 LTS installation. Post-installation hardening measures were implemented, including firewall configuration, automated security updates, antivirus setup, and browser security enhancements, significantly improving the device's usability and security posture.
 
 ---
 
-<p>
-  <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Ubuntu-blue?logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Windows-Server%20%7C%20Client-blue?logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Networking-Wireshark%20%7C%20Nmap-orange?logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Security-Nessus%20%7C%20Metasploit-red?logo=hackaday&logoColor=white" />
-  <img src="https://img.shields.io/badge/Programming-Python%20%7C%20Java%20%7C%20SQL-green?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scripting-Bash%20%7C%20PowerShell-yellow?logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloud-Oracle%20Cloud%20(OCI)-purple?logo=oracle&logoColor=white" />
-</p>
+## 2. Problem Statement / Initial Assessment
+
+* **Hardware:** HP 15-ba077cl laptop (UEFI, 8GB RAM, AMD APU).
+* **Initial State:** The laptop was running an unspecified version of Windows, exhibiting extremely poor performance, including slow operation and significant overheating. Access to the existing Windows installation was blocked by an unknown password, preventing data recovery (though ultimately deemed unnecessary by the customer).
+* **Security Concerns:** An unmaintained, poorly performing Windows installation poses significant security risks due to potential unpatched vulnerabilities and lack of modern security features. The performance issues also rendered the device impractical for daily use.
+* **Goal:** Replace Windows with a secure, stable, and lightweight Linux distribution to restore usability and provide a safe computing environment for a non-technical home user. Document the process for a cybersecurity portfolio.
 
 ---
 
-## 🧰 Skills & Competencies
+## 3. Troubleshooting & OS Selection
 
-### 🔐 Security Principles
-**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS  
+The initial phase involved significant troubleshooting related to bootable media creation and hardware compatibility.
 
-### 🛠️ Tools & Technologies
-**Network & Security:** Wireshark • Nmap • Nessus • Metasploit  
-**Programming & Scripting:** Python • Java • SQL • Bash • PowerShell  
-**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI)  
-**Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing  
+### 3.1. Bootable Media Creation Challenges
 
-### 💻 Operating Systems
-Windows (Client & Server) • Linux (Kali, Ubuntu)  
+* **Initial Attempt:** Linux Mint 22.2 XFCE was chosen initially for its user-friendliness and relatively low resource usage.
+* **Creation Environment:** Bootable USB (microSD + SD Adapter + USB Reader) was created using Rufus on an Alienware m16r2 workstation running Windows 11.
+* **Identified Conflicts:**
+    * **Antivirus Interference:** BitDefender's "Immunization" feature, initially activated on drive insertion, was suspected of corrupting the boot structure.
+    * **Windows Ejection Bug:** A known quirk on the Alienware workstation prevented safe USB ejection via standard methods, reporting the device as "still in use". Forcible removal after failed ejection attempts likely caused filesystem corruption on the USB drive.
+* **Symptoms:** Windows prompted to "Scan and fix" the created USB drive upon re-insertion, indicating corruption. The initial boot attempt on the HP laptop failed with "Unable to find a medium containing a live file system".
+* **Resolution:**
+    * Temporarily disabled relevant BitDefender USB scanning/immunization features before drive insertion.
+    * Implemented a robust safe ejection workaround using Windows Device Manager (`Disk drives` -> `Uninstall device` -> `Action` -> `Scan for hardware changes` -> Immediate eject via tray icon), which successfully bypassed the "in use" bug and resulted in a clean unmount confirmed by the "Safe To Remove Hardware" notification.
 
-### 🎯 Core Competencies
-Network Security • Penetration Testing • Threat Analysis • Incident Response  
-Vulnerability Management • System Hardening • Compliance • Technical Documentation  
+### 3.2. Linux Mint Boot Failures (Hardware Incompatibility)
 
----
+* Despite creating clean bootable media, Linux Mint 22.2 (Ubuntu 24.04 base) failed to boot correctly on the HP 15-ba077cl.
+* **Symptoms:**
+    * **Normal Mode:** Screen flashed on/off repeatedly after showing the Mint logo, indicating graphics driver initialization failure.
+    * **Compatibility Mode:** Boot process hung in a loop, repeatedly starting/stopping `lightdm.service` and `gpu-manager.service`, with blinking text output.
+* **Troubleshooting Steps (Kernel Parameters):** Various kernel parameters were attempted by editing the GRUB boot entry for compatibility mode:
+    * `nomodeset`: Already present in compatibility mode; insufficient to resolve the issue.
+    * `radeon.modeset=0`: Added specifically to target the AMD graphics driver; loop persisted, though blinking rate slightly changed.
+    * `acpi=off`: Added as a more drastic measure to disable power management/hardware configuration; loop still persisted.
+* **Conclusion:** The persistent failure even with multiple standard workarounds strongly indicated an incompatibility between the newer kernel/driver stack in the Ubuntu 24.04 base and the specific AMD APU/graphics hardware in the HP 15-ba077cl.
 
-<div align="center">
+### 3.3. OS Selection Rationale: Lubuntu 22.04 LTS
 
-## ✨ Flagship Project: Vulcan Scan
-
-<img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_logo.png" alt="Vulcan Scan Logo" width="259" height="259">
-
-As the lead developer, I am building **Vulcan Scan**, a next-generation vulnerability management and security monitoring platform. It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
-
-<p align="center">
-  <a href="https://github.com/sponsors/rduckworthfl-ux" style="display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support%20Me-ea4aaa?logo=githubsponsors&style=for-the-badge" alt="Sponsor on GitHub">
-  </a>
-  <a href="https://ko-fi.com/vulcanscan" style="display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-FF5E5B?logo=kofi&style=for-the-badge" alt="Buy Me a Coffee">
-  </a>
-</p>
-
-| Main Security Dashboard | Vulnerability Management View |
-| :---: | :---: |
-| ![Vulcan Scan Dashboard](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Security-Dashboard.png) | ![Vulcan Scan Vulnerability Management](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulcan-scan_Vuln-Mgmt.png) |
-
-</div>
+* Based on the Mint 22.2 failures, a different distribution was selected.
+* **Lubuntu 22.04.5 LTS** was chosen for the following reasons:
+    * **Ubuntu 22.04 LTS Base:** Uses an older, potentially more stable kernel and driver set compared to the 24.04 base, increasing the likelihood of compatibility with the target hardware.
+    * **LXQt Desktop Environment:** Lubuntu uses LXQt, which is even more lightweight than XFCE, making it ideal for maximizing performance on the low-spec HP laptop (8GB RAM, older AMD APU).
+    * **Successful Boot:** Lubuntu 22.04.5 booted successfully into the live environment without requiring additional kernel parameters. A Rufus warning about a revoked UEFI bootloader was noted but deemed irrelevant as Secure Boot was disabled on the target machine.
 
 ---
 
-## 📂 Portfolio Projects
+## 4. Installation Process
 
-| Project Title | Category |
-| :--- | :--- |
-| [01. Professional Statement](./01_professional_statement/) | Career Development |
-| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_and_security/) | Network Security |
-| [03. Conducting a Security Audit](./03_conducting_a_security_audit/) | Risk Management |
-| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small_business/) | Vulnerability Assessment |
-| [05. Managing File Permissions in Linux](./05_managing_file_permissions_in_linux/) | Linux Administration |
-| [06. Applying Filters to SQL Queries](./06_applying_filters_to_sql_queries/) | SQL & Data Analysis |
-| [07. Documenting an Incident Handler's Journal](./07_documenting_an_incident_handlers_journal/) | Incident Response |
-| [08. Importing & Parsing a Text File with Python](./08_importing_and_parsing_a_text_file/) | Python & Automation |
-| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_oci/) | Cloud Security |
-| [10. Certifications](./10_certifications/) | Professional Development |
-| [11. Data Integrity Verification Tool](./11_data_integrity_verifier/) | Cryptography / Java Development |
-| [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing |
-| [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/) | Network Security / System Administration |
+The installation proceeded using the Lubuntu graphical installer (Calamares) from the live USB environment.
+
+* **Internet Connection:** Established Wi-Fi connection within the live environment using the `nmcli` terminal command (required using single quotes for a password containing '!') after the GUI applet failed to appear.
+* **Installation Type:** Selected **"Erase disk and install Lubuntu"** to completely remove the existing Windows partitions and dedicate the entire internal drive to Lubuntu.
+* **Updates & Drivers:** Opted to **download updates** and **install third-party software** during installation for completeness and hardware support.
+* **Partitioning & Swap:** Allowed the installer to perform automatic partitioning, which includes the creation of an **automatic swap file** (suitable for this hardware configuration).
+* **User Setup:** Created a standard (non-administrator by default) user account with a strong password.
+* **Completion:** Installation completed successfully, followed by a system restart and removal of the USB medium when prompted.
 
 ---
 
-## 📫 Contact
+## 5. Post-Installation Hardening
 
-**LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333)  
-**Email:** 8eq5iybyg@mozmail.com  
+Several steps were taken to secure the fresh Lubuntu installation for the non-technical end-user:
+
+1.  **System Updates:** Immediately applied all available system updates via the Update Notifier upon first boot, including numerous security patches. Configured automatic checking and installation of security updates daily via `Software Sources` GUI.
+2.  **Firewall Configuration:** Enabled the Uncomplicated Firewall (UFW) using `sudo ufw enable`. Verified status with `sudo ufw status verbose`, confirming it defaults to denying incoming connections while allowing outgoing, providing essential network protection.
+3.  **Antivirus Installation:** Installed `ClamAV` and its graphical front-end `ClamTk` (`sudo apt install clamtk -y`) to provide on-demand scanning capabilities for downloaded files or user directories, offering peace of mind without the constant resource usage of a background daemon. Configured daily signature updates via the ClamTk GUI.
+4.  **Web Browser Security:** Installed the **uBlock Origin** extension in the default Firefox browser to block intrusive and potentially malicious advertisements, significantly reducing the user's exposure to web-based threats like malvertising and phishing.
+5.  **User Account Security:** Confirmed the primary user account operates with standard privileges, requiring `sudo` (and password entry) for administrative tasks. Ensured a strong password was set during installation. (Guest account status check recommended - *SysAdmin note: confirm if guest login is disabled via GUI later*).
 
 ---
 
-_"Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”_
+## 6. Results & Performance
 
-</div>
+* **Performance:** The difference was immediate and significant. The laptop runs Lubuntu 22.04 LTS smoothly, responsively, and remains cool during operation, a stark contrast to the overheating and sluggishness experienced under Windows.
+* **Security Posture:** The device is now running a currently supported Long-Term Support (LTS) Linux distribution with critical security updates configured to install automatically. The enabled firewall, optional antivirus, and browser-level ad/tracker blocking provide multiple layers of defense suitable for a home user.
+* **Usability:** The lightweight LXQt desktop environment provides a familiar and easy-to-use interface for the non-technical customer, fulfilling the project's primary goal.
+
+---
+
+## 7. Conclusion & Learnings
+
+The project successfully replaced an insecure and poorly performing Windows installation on an older HP laptop with a lightweight, secure, and performant Lubuntu 22.04 LTS system. The primary challenges involved overcoming hardware incompatibilities with newer Linux kernels/drivers (requiring systematic troubleshooting with boot parameters and ultimately a change in distribution base) and reliably creating bootable media on a workstation with a known USB ejection defect (requiring specific Device Manager workarounds).
+
+This case study demonstrates proficiency in:
+
+* Diagnosing and resolving complex Linux boot issues related to hardware compatibility (graphics, ACPI).
+* Systematic troubleshooting of bootable media creation errors, including mitigating third-party software conflicts (antivirus) and OS-level hardware bugs (Windows USB ejection).
+* Selecting appropriate Linux distributions based on hardware specifications and user needs (LTS vs. rolling, desktop environment choices).
+* Performing secure Linux OS installation and implementing essential post-installation hardening measures (updates, firewall, AV, browser security) tailored for an end-user environment.
+* Clear documentation of technical processes, challenges, and solutions.
+
+The significant improvement in performance and security validates the choice of migrating away from the unsupported Windows installation on this hardware.
