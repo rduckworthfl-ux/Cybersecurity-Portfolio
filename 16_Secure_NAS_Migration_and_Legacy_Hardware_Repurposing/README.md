@@ -204,5 +204,5 @@ Unmounted /dev/sdb1.
 [2025-12-20 23:30:23] INFO: Unmount successful. Killing power...
 [2025-12-20 23:30:23] SUCCESS: Backup complete. Drive is powered down.
 --------------------------------------------
-rduck@ryan-hpnotebook:~$
+
 ```
