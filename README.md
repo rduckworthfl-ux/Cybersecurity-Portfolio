@@ -6,7 +6,7 @@
 
 <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
   <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="400"/>
-</a>  
+</a>
 
 <br/>
 
@@ -34,33 +34,29 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 ## 🧰 Skills & Competencies
 
 ### 🔐 Security Principles
-**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS  
+
+**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS
 
 ### 🛠️ Tools & Technologies
 
-
 **Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin)
-
 
 **Programming & Scripting:** Python • Java • SQL • Bash • PowerShell
 
-
 **Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI)
 
-
-**Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing 
-
+**Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing
 
 **Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis
 
-
-
 ### 💻 Operating Systems
+
 Windows (Client & Server) • Linux (Kali, Ubuntu, Lubuntu) • Linux Installation & Troubleshooting
 
 ### 🎯 Core Competencies
+
 Network Security • Penetration Testing • Threat Analysis • Incident Response  
-Vulnerability Management • System Hardening • Endpoint Hardening (Linux) • Compliance • Technical Documentation  
+Vulnerability Management • System Hardening • Endpoint Hardening (Linux) • Compliance • Technical Documentation
 
 ---
 
@@ -70,8 +66,7 @@ Vulnerability Management • System Hardening • Endpoint Hardening (Linux) •
 
 <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vapplerLogo.png" alt="Vappler Logo" width="259" height="259">
 
-As the lead developer, I am building **Vappler** (*Vulnerability Attack Path Doppler*), a next-generation vulnerability management and security monitoring platform. It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
-
+As the lead developer, I am building **Vappler** (_Vulnerability Attack Path Doppler_), a next-generation vulnerability management and security monitoring platform. It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
 
 <p align="center">
   <a href="https://github.com/sponsors/rduckworthfl-ux" style="display: inline-block; margin: 5px;">
@@ -82,9 +77,9 @@ As the lead developer, I am building **Vappler** (*Vulnerability Attack Path Dop
   </a>
 </p>
 
-| Vulnerability Management View |
-| :---: |
-| ![Vappler Vulnerability Management](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vulnerabilities-found.png) |
+|                                                    Vulnerability Management View                                                    |
+| :---------------------------------------------------------------------------------------------------------------------------------: |
+| ![Vappler Vulnerability Management](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-sd1.png) |
 
 </div>
 
@@ -92,31 +87,31 @@ As the lead developer, I am building **Vappler** (*Vulnerability Attack Path Dop
 
 ## 📂 Portfolio Projects
 
-| Project Title | Category |
-| :--- | :--- |
-| [01. Professional Statement](./01_professional_statement/) | Career Development |
-| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_and_security/) | Network Security |
-| [03. Conducting a Security Audit](./03_conducting_a_security_audit/) | Risk Management |
-| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small_business/) | Vulnerability Assessment |
-| [05. Managing File Permissions in Linux](./05_managing_file_permissions_in_linux/) | Linux Administration |
-| [06. Applying Filters to SQL Queries](./06_applying_filters_to_sql_queries/) | SQL & Data Analysis |
-| [07. Documenting an Incident Handler's Journal](./07_documenting_an_incident_handlers_journal/) | Incident Response |
-| [08. Importing & Parsing a Text File with Python](./08_importing_and_parsing_a_text_file/) | Python & Automation |
-| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_oci/) | Cloud Security |
-| [10. Certifications](./10_certifications/) | Professional Development |
-| [11. Data Integrity Verification Tool](./11_data_integrity_verifier/) | Cryptography / Java Development |
-| [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing |
-| [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/) | Network Security / System Administration |
-| [14. Secure OS Migration and Endpoint Hardening](./14_secure_os_migration_and_endpoint_hardening_for_legacy_hardware/) | OS Migration / Endpoint Security / Linux Hardening |
-| [15. Port Reservation Forensic Investigation](./15_Port_Reservation_Forensic_Investigation/) | Incident Response / Forensics Analysis / System Administration |
-
+| Project Title                                                                                                                | Category                                                       |
+| :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
+| [01. Professional Statement](./01_professional_statement/)                                                                   | Career Development                                             |
+| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_and_security/)                                 | Network Security                                               |
+| [03. Conducting a Security Audit](./03_conducting_a_security_audit/)                                                         | Risk Management                                                |
+| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small_business/)               | Vulnerability Assessment                                       |
+| [05. Managing File Permissions in Linux](./05_managing_file_permissions_in_linux/)                                           | Linux Administration                                           |
+| [06. Applying Filters to SQL Queries](./06_applying_filters_to_sql_queries/)                                                 | SQL & Data Analysis                                            |
+| [07. Documenting an Incident Handler's Journal](./07_documenting_an_incident_handlers_journal/)                              | Incident Response                                              |
+| [08. Importing & Parsing a Text File with Python](./08_importing_and_parsing_a_text_file/)                                   | Python & Automation                                            |
+| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_oci/)                                                 | Cloud Security                                                 |
+| [10. Certifications](./10_certifications/)                                                                                   | Professional Development                                       |
+| [11. Data Integrity Verification Tool](./11_data_integrity_verifier/)                                                        | Cryptography / Java Development                                |
+| [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing                 |
+| [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/)                                         | Network Security / System Administration                       |
+| [14. Secure OS Migration and Endpoint Hardening](./14_secure_os_migration_and_endpoint_hardening_for_legacy_hardware/)       | OS Migration / Endpoint Security / Linux Hardening             |
+| [15. Port Reservation Forensic Investigation](./15_Port_Reservation_Forensic_Investigation/)                                 | Incident Response / Forensics Analysis / System Administration |
+| [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery            |
 
 ---
 
 ## 📫 Contact
 
 **LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333)  
-**Email:** 8eq5iybyg@mozmail.com  
+**Email:** 8eq5iybyg@mozmail.com
 
 ---
 
