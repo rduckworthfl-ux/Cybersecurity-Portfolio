@@ -68,6 +68,8 @@ Vulnerability Management • System Hardening • Endpoint Hardening (Linux) •
 
 As the lead developer, I am building **Vappler** (_Vulnerability Attack Path Doppler_), a next-generation vulnerability management and security monitoring platform. It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
 
+Check out the [Vappler GitHub repository](https://github.com/aspida-security/vappler-docs) for more information.
+
 <p align="center">
   <a href="https://github.com/sponsors/rduckworthfl-ux" style="display: inline-block; margin: 5px;">
     <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support%20Me-ea4aaa?logo=githubsponsors&style=for-the-badge" alt="Sponsor on GitHub">
