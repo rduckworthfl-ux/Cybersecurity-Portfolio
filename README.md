@@ -64,7 +64,7 @@ Vulnerability Management • System Hardening • Endpoint Hardening (Linux) •
 
 ## ✨ Flagship Project: Vappler
 
-<img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vapplerLogo.png" alt="Vappler Logo" width="259" height="259">
+<img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-logo-transparent.png" alt="Vappler Logo" width="259" height="259">
 
 As the lead developer, I am building **Vappler** (_Vulnerability Attack Path Doppler_), a next-generation vulnerability management and security monitoring platform. It's designed to provide security professionals and MSSPs with a comprehensive toolset to analyze, prioritize, and track security findings across all client assets.
 
