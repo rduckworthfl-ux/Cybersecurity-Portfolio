@@ -107,6 +107,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [14. Secure OS Migration and Endpoint Hardening](./14_secure_os_migration_and_endpoint_hardening_for_legacy_hardware/)       | OS Migration / Endpoint Security / Linux Hardening             |
 | [15. Port Reservation Forensic Investigation](./15_Port_Reservation_Forensic_Investigation/)                                 | Incident Response / Forensics Analysis / System Administration |
 | [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery            |
+| [17. Secure Linux Dev Infrastructure & Hardening](./17_Secure_Linux_Dev_Infrastructure_and_Hardening/)                       | System Hardening / DevSecOps                                   |
 
 ---
 
