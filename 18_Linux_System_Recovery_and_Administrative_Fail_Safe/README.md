@@ -20,7 +20,6 @@ The incident originated from a maintenance script that attempted to set the user
 # THE INCORRECT COMMAND (Triggered the Lockout)
 usermod -p "password123" username-here
 ```
-````
 
 **Technical Failure:**
 The `-p` flag in `usermod` expects a pre-encrypted hash (e.g., `$6$salt$hash...`). By passing a plaintext string, the system wrote `"password123"` literally into `/etc/shadow`.
@@ -145,7 +144,4 @@ reboot
 - Confirmed `ops` account availability.
 - **System Status:** Fully Operational.
 
-
-
 ---
-
