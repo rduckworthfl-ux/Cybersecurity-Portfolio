@@ -108,6 +108,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [15. Port Reservation Forensic Investigation](./15_Port_Reservation_Forensic_Investigation/)                                 | Incident Response / Forensics Analysis / System Administration |
 | [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery            |
 | [17. Secure Linux Dev Infrastructure & Hardening](./17_Secure_Linux_Dev_Infrastructure_and_Hardening/)                       | System Hardening / DevSecOps                                   |
+| [18. Linux System Recovery & Administrative Fail Safe](./18_Linux_System_Recovery_and_Administrative_Fail_Safe/)             | System Recovery / Forensics                                    |
 
 ---
 
