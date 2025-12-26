@@ -1,12 +1,12 @@
 # Project 17: Secure Linux Dev Infrastructure & System Hardening
 
-## 📝 Project Overview
+## Project Overview
 
 This project involved the engineering and deployment of a hardened, high-performance Linux development environment on repurposed hardware ("HP-Lab"). The objective was to build a secure foundation for the **Vappler** vulnerability management platform.
 
 Key achievements included implementing a **ZRAM-based memory architecture** to overcome hardware limitations, engineering a **Samba Permission Airlock** to sanitize cross-platform file transfers, and enforcing a **Zero-Trust Network posture** using UFW.
 
-## 🎯 Objectives
+## Objectives
 
 - **Infrastructure Optimization:** maximize available RAM using compression algorithms (ZRAM).
 - **Cross-Platform Integration:** Establish a secure, sanitized file bridge between Windows (Alienware) and Linux (HP-Lab).
@@ -15,7 +15,7 @@ Key achievements included implementing a **ZRAM-based memory architecture** to o
 
 ---
 
-## 📸 Implementation Log
+## Implementation Log
 
 ### Phase 1: Performance Engineering (ZRAM)
 
@@ -176,7 +176,7 @@ pro status
 
 ---
 
-## 🛡️ Final Architecture
+## Final Architecture
 
 - **Hostname:** `hp-lab`
 - **IP Assignment:** Static (Via Router Reservation)
