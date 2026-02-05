@@ -140,8 +140,8 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 ---
 
 **Runtime Proof:**
-![Two Sum Description](../../assets/twoSum(description).png)
-![Two Sum Accepted](../../assets/twoSum(accepted).png)
+![Two Sum Description](<../../assets/twoSum(description).png>)
+![Two Sum Accepted](<../../assets/twoSum(accepted).jpg>)
 _3ms runtime, beats 51.92% of Python3 submissions_
 
 ---
