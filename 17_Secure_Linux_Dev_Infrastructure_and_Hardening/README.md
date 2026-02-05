@@ -149,15 +149,23 @@ sudo ufw allow from 192.168.XX.XXX to any port 22 proto tcp
 
 # 4. Enable Logging & Activation
 sudo ufw logging on
+[1] Logging enabled
 sudo ufw enable
+[1] Firewall is active and enabled on system startup
 
+5. Restart pc and verify
+sudo reboot
 sudo ufw status numbered
+[1] Status: active
 
 To                         Action      From
      --                         ------      ----
 [1] Samba                      ALLOW IN    192.168.XX.XXX
-[2] Samba                      ALLOW IN    192.168.XX.XXX
+[2] 22/tcp                     ALLOW IN    192.168.XX.XXX
 [3] Samba                      ALLOW IN    192.168.XX.XXX
+[4] 22/tcp                     ALLOW IN    192.168.XX.XXX
+[5] Samba                      ALLOW IN    192.168.XX.XXX
+[6] 22/tcp                     ALLOW IN    192.168.XX.XXX
 ```
 
 ### Phase 5: Compliance (Ubuntu Pro)

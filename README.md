@@ -2,7 +2,7 @@
 
 ![Aspida Security Banner](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspidaLogo.png)
 
-<h1>🛡️ Ryan Duckworth's Cybersecurity Portfolio</h1>
+<h1> Ryan Duckworth's Cybersecurity / Software Engineering Portfolio</h1>
 
 <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
   <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="400"/>
@@ -31,38 +31,53 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 ---
 
-## 🧰 Skills & Competencies
+## Skills & Competencies
 
-### 🔐 Security Principles
+### Security Principles
 
 **Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS
 
-### 🛠️ Tools & Technologies
+### Software Engineering & Development
+
+**Backend Development:** Python (Flask, Celery, Redis) • RESTful API Design • Microservices Architecture • Background Task Processing • Database Design (PostgreSQL, Supabase)
+
+**Algorithms & Data Structures:** Hash Maps • Sets • Stacks • Two Pointers • Sliding Window • O(n) Time Optimization • LeetCode (70%+ avg performance)
+
+**Version Control & CI/CD:** Git • GitHub • Docker • Docker Compose • Automated Testing • Code Review
+
+**Full-Stack:** TypeScript/React (Frontend) • PostgREST • Edge Functions • Real-time Dashboards
+
+### Tools & Technologies
 
 **Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin)
 
-**Programming & Scripting:** Python • Java • SQL • Bash • PowerShell
+**Programming & Scripting:** Python • Java • SQL • Bash • PowerShell • TypeScript
 
-**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI)
+**Databases:** PostgreSQL • Supabase • Materialized Views • Row-Level Security (RLS) • Query Optimization • Indexing Strategies
+
+**Backend Frameworks:** Flask • Gunicorn • Celery (Task Queue) • Redis (Message Broker)
+
+**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI) • Docker • Docker Compose
 
 **Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing
 
 **Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis
 
-### 💻 Operating Systems
+### Operating Systems
 
 Windows (Client & Server) • Linux (Kali, Ubuntu, Lubuntu) • Linux Installation & Troubleshooting
 
-### 🎯 Core Competencies
+### Core Competencies
 
-Network Security • Penetration Testing • Threat Analysis • Incident Response  
-Vulnerability Management • System Hardening • Endpoint Hardening (Linux) • Compliance • Technical Documentation
+**Security:** Network Security • Penetration Testing • Threat Analysis • Incident Response • Vulnerability Management • System Hardening • Endpoint Hardening (Linux) • Compliance
+
+**Engineering:** Algorithm Optimization • Database Architecture • API Development • Performance Tuning • Technical Documentation • Problem Decomposition • Production Debugging
 
 ---
 
 <div align="center">
 
-## ✨ Flagship Project: Vappler
+## Flagship Project: Vappler
 
 <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-logo-transparent.png" alt="Vappler Logo" width="259" height="259">
 
@@ -87,10 +102,11 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ---
 
-## 📂 Portfolio Projects
+## Portfolio Projects
 
 | Project Title                                                                                                                | Category                                                       |
 | :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
+| [00. LeetCode Security Patterns](./00_leetcode_security_patterns/)                                                           | Algorithms / Software Engineering / Cybersecurity Applications |
 | [01. Professional Statement](./01_professional_statement/)                                                                   | Career Development                                             |
 | [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_and_security/)                                 | Network Security                                               |
 | [03. Conducting a Security Audit](./03_conducting_a_security_audit/)                                                         | Risk Management                                                |
@@ -112,10 +128,10 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ---
 
-## 📫 Contact
+## Contact
 
 **LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333)  
-**Email:** 8eq5iybyg@mozmail.com
+**Email:** rduckworth@aspidasecurity.io
 
 ---
 
