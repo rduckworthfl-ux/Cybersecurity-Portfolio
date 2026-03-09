@@ -4,34 +4,29 @@
 
 <h1> Ryan Duckworth's Cybersecurity / Software Engineering Portfolio</h1>
 
-<a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
-  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png" alt="Google Cybersecurity Professional Certificate" width="400"/>
-</a>
-
-<br/>
-
 <table align="center">
   <tr>
     <td align="center" style="padding: 16px;">
       <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
         <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png"
-             alt="Google Cybersecurity Professional Certificate" width="155"/>
+             alt="Google Cybersecurity Professional Certificate" height="160"/>
       </a>
       <br/><sub><b>Google Cybersecurity<br/>Professional Certificate</b></sub><br/>
       <sub><a href="https://www.credly.com/go/r40cBjqO">Credly</a> • <a href="https://coursera.org/verify/professional-cert/PI4BPP81NMYI">Coursera</a></sub>
     </td>
     <td align="center" style="padding: 16px;">
-      <a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10_certifications/Fortinet%20Certified%20Associate%20in%20Cybersecurity.PDF.pdf">
+      <a href="https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff">
         <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/fortinet-certified-associate-cybersecurity.1.png"
-             alt="Fortinet Certified Associate in Cybersecurity" width="155"/>
+             alt="Fortinet Certified Associate in Cybersecurity" height="160"/>
       </a>
       <br/><sub><b>Fortinet Certified Associate<br/>in Cybersecurity</b></sub><br/>
-      <sub><a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10_certifications/Fortinet%20Certified%20Associate%20in%20Cybersecurity.PDF.pdf">View Certificate ↗</a></sub>
+      <sub><a href="https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff">Credly</a> • <a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10_certifications/Fortinet%20Certified%20Associate%20in%20Cybersecurity.PDF.pdf">Certificate ↗</a></sub>
     </td>
     <td align="center" style="padding: 16px;">
       <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/fortinet-fortigate-7-6-operator.png"
-           alt="NSE 3 – FortiGate Operator Exam v7.6" width="155"/>
-      <br/><sub><b>NSE 3 – FortiGate Operator<br/>Exam v7.6</b></sub>
+           alt="NSE 3 – FortiGate Operator Exam v7.6" height="160"/>
+      <br/><sub><b>NSE 3 – FortiGate Operator<br/>Exam v7.6</b></sub><br/>
+      <sub><a href="https://training.fortinet.com">Fortinet NSE Program ↗</a></sub>
     </td>
   </tr>
 </table>
@@ -73,13 +68,16 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 ### Tools & Technologies
 
-**Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin)
+**Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin) • FortiGate (FortiOS) • Web Filtering • SSL Inspection • Application Control • Intrusion Detection Systems
 
 **Programming & Scripting:** Python • Java • SQL • Bash • PowerShell • TypeScript
 
 **Databases:** PostgreSQL • Supabase • Materialized Views • Row-Level Security (RLS) • Query Optimization • Indexing Strategies
 
 **Backend Frameworks:** Flask • Gunicorn • Celery (Task Queue) • Redis (Message Broker)
+
+**AI & Automation:** LangChain (Chains · Prompts · Output Parsers) • Retrieval-Augmented Generation (RAG) • FAISS Vector Store • Semantic Document Retrieval • LLM API Integration (Groq / Llama 3) • Selenium WebDriver • ChromeDriver • Prompt Engineering & Template Design • Local AI Inference Pipelines
+
 
 **Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI) • Docker • Docker Compose
 
@@ -126,6 +124,21 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ---
 
+
+### iApply
+
+**iApply** is a locally-hosted, privacy-first job application assistant built by Aspida Security. It uses a Retrieval-Augmented Generation (RAG) pipeline backed by a FAISS vector store and Groq (Llama 3) to intelligently fill application forms — learning from every session and storing all data in an AES-256-GCM encrypted local vault. The application is engineered with layered security controls including Argon2id key derivation, OS-native credential storage, network isolation, and LLM prompt injection defenses.
+
+<p align="center">
+  <a href="https://github.com/sponsors/rduckworthfl-ux">
+    <img src="https://img.shields.io/badge/Support%20iApply-GitHub%20Sponsors-ea4aaa?logo=githubsponsors&style=for-the-badge" alt="Sponsor iApply">
+  </a>
+</p>
+
+</div>
+
+---
+
 ## Portfolio Projects
 
 | Project Title                                                                                                                | Category                                                       |
@@ -149,6 +162,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery            |
 | [17. Secure Linux Dev Infrastructure & Hardening](./17_Secure_Linux_Dev_Infrastructure_and_Hardening/)                       | System Hardening / DevSecOps                                   |
 | [18. Linux System Recovery & Administrative Fail Safe](./18_Linux_System_Recovery_and_Administrative_Fail_Safe/)             | System Recovery / Forensics                                    |
+| [19. iApply — Local RAG Application](./19_iApply/) | AI / RAG / LLM Integration / Secure Application Design |
 
 ---
 
