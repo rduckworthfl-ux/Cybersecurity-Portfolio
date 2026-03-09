@@ -141,8 +141,8 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 <div align="center">
 
-<a href="./screenshots/iApply-Dashboard.jpg">
-  <img src="./screenshots/iApply-Dashboard.jpg" alt="iApply Dashboard" width="860"/>
+<a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png">
+  <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png" alt="iApply Dashboard" width="860"/>
 </a>
 
 <br/><sub><i>Dashboard — engine control center with live feed, session counter, and status indicator</i></sub>
@@ -152,46 +152,46 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 <table>
   <tr>
     <td align="center">
-      <a href="./screenshots/iApply-Dashboard.jpg">
-        <img src="./screenshots/iApply-Dashboard.jpg" width="220" alt="Dashboard"/>
+      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png">
+        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png" width="220" alt="Dashboard"/>
       </a>
       <br/><sub>Dashboard</sub>
     </td>
     <td align="center">
-      <a href="./screenshots/iApply-Profile.jpg">
-        <img src="./screenshots/iApply-Profile.jpg" width="220" alt="Master Profile"/>
+      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Profile.png">
+        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Profile.png" width="220" alt="Master Profile"/>
       </a>
       <br/><sub>Master Profile</sub>
     </td>
     <td align="center">
-      <a href="./screenshots/iApply-Memory.jpg">
-        <img src="./screenshots/iApply-Memory.jpg" width="220" alt="Memory Vault"/>
+      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Memory.png">
+        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Memory.png" width="220" alt="Memory Vault"/>
       </a>
       <br/><sub>Memory Vault</sub>
     </td>
     <td align="center">
-      <a href="./screenshots/iApply-Filters.jpg">
-        <img src="./screenshots/iApply-Filters.jpg" width="220" alt="Title Filters"/>
+      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Filters.png">
+        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Filters.png" width="220" alt="Title Filters"/>
       </a>
       <br/><sub>Title Filters</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="./screenshots/iApply-HUD.jpg">
-        <img src="./screenshots/iApply-HUD.jpg" width="220" alt="HUD"/>
+      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-HUD.png">
+        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-HUD.png" width="220" alt="HUD"/>
       </a>
       <br/><sub>HUD — Live Command Interface</sub>
     </td>
     <td align="center">
-      <a href="./screenshots/iApply-Review.jpg">
-        <img src="./screenshots/iApply-Review.jpg" width="220" alt="Review Queue"/>
+      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Review.png">
+        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Review.png" width="220" alt="Review Queue"/>
       </a>
       <br/><sub>Review Queue</sub>
     </td>
     <td align="center">
-      <a href="./screenshots/iApply-Settings.jpg">
-        <img src="./screenshots/iApply-Settings.jpg" width="220" alt="Settings"/>
+      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Settings.jpg">
+        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Settings.jpg" width="220" alt="Settings"/>
       </a>
       <br/><sub>Settings</sub>
     </td>
