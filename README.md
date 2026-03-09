@@ -6,25 +6,25 @@
 
 <table align="center">
   <tr>
-    <td align="center" style="padding: 16px;">
+    <td align="center" width="220" style="padding: 16px;">
       <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
         <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png"
-             alt="Google Cybersecurity Professional Certificate" width="190"/>
+             alt="Google Cybersecurity Professional Certificate" height="175"/>
       </a>
       <br/><sub><b>Google Cybersecurity<br/>Professional Certificate</b></sub><br/>
       <sub><a href="https://www.credly.com/go/r40cBjqO">Credly</a> • <a href="https://coursera.org/verify/professional-cert/PI4BPP81NMYI">Coursera</a></sub>
     </td>
-    <td align="center" style="padding: 16px;">
+    <td align="center" width="220" style="padding: 16px;">
       <a href="https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff">
         <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/fortinet-certified-associate-cybersecurity.1.png"
-             alt="Fortinet Certified Associate in Cybersecurity" height="160"/>
+             alt="Fortinet Certified Associate in Cybersecurity" height="175"/>
       </a>
       <br/><sub><b>Fortinet Certified Associate<br/>in Cybersecurity</b></sub><br/>
       <sub><a href="https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff">Credly</a> • <a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10_certifications/Fortinet%20Certified%20Associate%20in%20Cybersecurity.PDF.pdf">Certificate ↗</a></sub>
     </td>
-    <td align="center" style="padding: 16px;">
+    <td align="center" width="220" style="padding: 16px;">
       <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/fortinet-fortigate-7-6-operator.png"
-           alt="NSE 3 – FortiGate Operator Exam v7.6" height="160"/>
+           alt="NSE 3 – FortiGate Operator Exam v7.6" height="175"/>
       <br/><sub><b>NSE 3 – FortiGate Operator<br/>Exam v7.6</b></sub><br/>
       <sub><a href="https://training.fortinet.com">Fortinet NSE Program ↗</a></sub>
     </td>
