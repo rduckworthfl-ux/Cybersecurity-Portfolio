@@ -9,7 +9,7 @@
 
 <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
   <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png"
-       alt="Google Cybersecurity Professional Certificate" width="200"/>
+       alt="Google Cybersecurity Professional Certificate" width="280"/>
 </a>
 
 <br/>
