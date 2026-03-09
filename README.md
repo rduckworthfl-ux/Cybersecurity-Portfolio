@@ -9,7 +9,7 @@
     <td align="center" style="padding: 16px;">
       <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
         <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png"
-             alt="Google Cybersecurity Professional Certificate" height="160"/>
+             alt="Google Cybersecurity Professional Certificate" width="190"/>
       </a>
       <br/><sub><b>Google Cybersecurity<br/>Professional Certificate</b></sub><br/>
       <sub><a href="https://www.credly.com/go/r40cBjqO">Credly</a> • <a href="https://coursera.org/verify/professional-cert/PI4BPP81NMYI">Coursera</a></sub>
