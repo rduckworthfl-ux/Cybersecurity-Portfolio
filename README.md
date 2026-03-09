@@ -1,17 +1,19 @@
 <div align="center">
 
-![Aspida Security Banner](https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspidaLogo.png)
+<a href="https://github.com/aspida-security">
+  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/aspidaLogo.png"
+       alt="Aspida Security Banner" width="500"/>
+</a>
 
-<h1> Ryan Duckworth's Cybersecurity / Software Engineering Portfolio</h1>
-
-<div align="center">
+<h1>Ryan Duckworth's Cybersecurity / Software Engineering Portfolio</h1>
 
 <a href="https://www.credly.com/badges/add292db-cf1a-4dcb-a3fa-8b65d858c843/public_url">
   <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/google-cybersecurity-professional-certificate-v2.png"
-       alt="Google Cybersecurity Professional Certificate"/>
+       alt="Google Cybersecurity Professional Certificate" width="200"/>
 </a>
 
-<br/><sub><b>Google Cybersecurity Professional Certificate</b></sub><br/>
+<br/>
+<h3>Google Cybersecurity Professional Certificate</h3>
 <sub><a href="https://www.credly.com/go/r40cBjqO">Credly</a> • <a href="https://coursera.org/verify/professional-cert/PI4BPP81NMYI">Coursera</a></sub>
 
 <br/><br/>
