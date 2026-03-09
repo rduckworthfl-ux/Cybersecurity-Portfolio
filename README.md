@@ -78,7 +78,6 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 **AI & Automation:** LangChain (Chains · Prompts · Output Parsers) • Retrieval-Augmented Generation (RAG) • FAISS Vector Store • Semantic Document Retrieval • LLM API Integration (Groq / Llama 3) • Selenium WebDriver • ChromeDriver • Prompt Engineering & Template Design • Local AI Inference Pipelines
 
-
 **Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI) • Docker • Docker Compose
 
 **Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing
@@ -124,7 +123,6 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ---
 
-
 ### iApply
 
 **iApply** is a locally-hosted, privacy-first job application assistant built by Aspida Security. It uses a Retrieval-Augmented Generation (RAG) pipeline backed by a FAISS vector store and Groq (Llama 3) to intelligently fill application forms — learning from every session and storing all data in an AES-256-GCM encrypted local vault. The application is engineered with layered security controls including Argon2id key derivation, OS-native credential storage, network isolation, and LLM prompt injection defenses.
@@ -134,6 +132,72 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
     <img src="https://img.shields.io/badge/Support%20iApply-GitHub%20Sponsors-ea4aaa?logo=githubsponsors&style=for-the-badge" alt="Sponsor iApply">
   </a>
 </p>
+
+</div>
+
+---
+
+## Application Screenshots
+
+<div align="center">
+
+<a href="./screenshots/iApply-Dashboard.jpg">
+  <img src="./screenshots/iApply-Dashboard.jpg" alt="iApply Dashboard" width="860"/>
+</a>
+
+<br/><sub><i>Dashboard — engine control center with live feed, session counter, and status indicator</i></sub>
+
+<br/><br/>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="./screenshots/iApply-Dashboard.jpg">
+        <img src="./screenshots/iApply-Dashboard.jpg" width="220" alt="Dashboard"/>
+      </a>
+      <br/><sub>Dashboard</sub>
+    </td>
+    <td align="center">
+      <a href="./screenshots/iApply-Profile.jpg">
+        <img src="./screenshots/iApply-Profile.jpg" width="220" alt="Master Profile"/>
+      </a>
+      <br/><sub>Master Profile</sub>
+    </td>
+    <td align="center">
+      <a href="./screenshots/iApply-Memory.jpg">
+        <img src="./screenshots/iApply-Memory.jpg" width="220" alt="Memory Vault"/>
+      </a>
+      <br/><sub>Memory Vault</sub>
+    </td>
+    <td align="center">
+      <a href="./screenshots/iApply-Filters.jpg">
+        <img src="./screenshots/iApply-Filters.jpg" width="220" alt="Title Filters"/>
+      </a>
+      <br/><sub>Title Filters</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="./screenshots/iApply-HUD.jpg">
+        <img src="./screenshots/iApply-HUD.jpg" width="220" alt="HUD"/>
+      </a>
+      <br/><sub>HUD — Live Command Interface</sub>
+    </td>
+    <td align="center">
+      <a href="./screenshots/iApply-Review.jpg">
+        <img src="./screenshots/iApply-Review.jpg" width="220" alt="Review Queue"/>
+      </a>
+      <br/><sub>Review Queue</sub>
+    </td>
+    <td align="center">
+      <a href="./screenshots/iApply-Settings.jpg">
+        <img src="./screenshots/iApply-Settings.jpg" width="220" alt="Settings"/>
+      </a>
+      <br/><sub>Settings</sub>
+    </td>
+    <td align="center"></td>
+  </tr>
+</table>
 
 </div>
 
@@ -162,7 +226,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery            |
 | [17. Secure Linux Dev Infrastructure & Hardening](./17_Secure_Linux_Dev_Infrastructure_and_Hardening/)                       | System Hardening / DevSecOps                                   |
 | [18. Linux System Recovery & Administrative Fail Safe](./18_Linux_System_Recovery_and_Administrative_Fail_Safe/)             | System Recovery / Forensics                                    |
-| [19. iApply — Local RAG Application](./19_iApply/) | AI / RAG / LLM Integration / Secure Application Design |
+| [19. iApply — Local RAG Application](./19_iApply/)                                                                           | AI / RAG / LLM Integration / Secure Application Design         |
 
 ---
 
