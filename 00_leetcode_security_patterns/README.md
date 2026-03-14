@@ -1,6 +1,3 @@
-There are 4 IBM references scattered through it. Here's the full cleaned README — copy and paste this over the entire file:
-
-````markdown
 # LeetCode for Cybersecurity: Algorithmic Patterns in Threat Detection
 
 **Author:** Ryan Duckworth  
@@ -102,6 +99,7 @@ def find_exploit_chain(vulnerabilities, risk_threshold):
             return [seen[complement_cvss], i]  # Exploit chain found
         seen[vuln.cvss_score] = i
 ```
+
 ````
 
 **Why it matters:** SIEM systems process millions of events/second. O(n²) brute force (checking every pair) would crash the system. Hash maps enable real-time correlation.
@@ -191,8 +189,8 @@ When asked "tell me about a time you optimized performance," I talk about:
 
 ## Technical Setup
 
-**Language:** Python 3.10+  
-**Platform:** LeetCode  
+**Language:** Python 3.10+
+**Platform:** LeetCode
 **Documentation Standard:** Every solution includes:
 
 - Input/output specification
@@ -207,11 +205,11 @@ When asked "tell me about a time you optimized performance," I talk about:
 
 ## Contact
 
-**Ryan Duckworth**  
-rduckworth@aspidasecurity.io  
-[LinkedIn](https://www.linkedin.com/in/rduckworthfl333)  
-[Portfolio](https://aspidasecurity.io)  
-[Vappler Docs](https://github.com/rduckworthfl-ux/vapplerDocs)  
+**Ryan Duckworth**
+rduckworth@aspidasecurity.io
+[LinkedIn](https://www.linkedin.com/in/rduckworthfl333)
+[Portfolio](https://aspidasecurity.io)
+[Vappler Docs](https://github.com/rduckworthfl-ux/vapplerDocs)
 [Website](https://aspidasecurity.io)
 
 ---
@@ -226,8 +224,9 @@ I just needed to see the math. Now I do.
 
 ---
 
-**Last Updated:** March 14, 2026  
-**Problems Solved:** 5 (Two Sum, Contains Duplicate, Valid Anagram, Valid Parentheses, Valid Palindrome)  
+**Last Updated:** March 14, 2026
+**Problems Solved:** 5 (Two Sum, Contains Duplicate, Valid Anagram, Valid Parentheses, Valid Palindrome)
 **Target:** 10+ across all pattern categories
 
 ---
+````
