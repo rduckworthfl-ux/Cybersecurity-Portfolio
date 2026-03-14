@@ -1,9 +1,12 @@
+There are 4 IBM references scattered through it. Here's the full cleaned README — copy and paste this over the entire file:
+
+````markdown
 # LeetCode for Cybersecurity: Algorithmic Patterns in Threat Detection
 
 **Author:** Ryan Duckworth  
-**Context:** IBM Entry-Level AI Software Engineer Interview Prep  
+**Context:** Cybersecurity Engineering & Technical Interview Prep  
 **Date:** February 4, 2026  
-**Portfolio:** [github.com/rduckworthfl-ux](https://github.com/rduckworthfl-ux)
+**Portfolio:** [github.com/rduckworthfl-ux](https://github.com/rduckworthfl-ux)  
 **Website:** [Vappler](https://aspidasecurity.io)
 
 ---
@@ -46,7 +49,7 @@ After struggling with Two Sum for 4 hours, I cracked the code. Here's the exact 
 
 - Every algorithm has a core mathematical relationship
 - **Example (Two Sum):** `x + y = target` → solve for `y = target - x`
-- This is my unlock;I've always been good at math, and finding the algebra makes the code obvious
+- This is my unlock; I've always been good at math, and finding the algebra makes the code obvious
 
 ### **Step 3: Identify the Bottleneck**
 
@@ -99,6 +102,7 @@ def find_exploit_chain(vulnerabilities, risk_threshold):
             return [seen[complement_cvss], i]  # Exploit chain found
         seen[vuln.cvss_score] = i
 ```
+````
 
 **Why it matters:** SIEM systems process millions of events/second. O(n²) brute force (checking every pair) would crash the system. Hash maps enable real-time correlation.
 
@@ -134,7 +138,7 @@ def deduplicate_findings(scan_results):
 
 **Why it matters:** Users don't want to see the same CVE-2024-1234 reported 50 times across 50 IPs. Set-based deduplication ensures clean dashboards.
 
-**Result:** Accepted (pending final submission)
+**Result:** Accepted
 
 ---
 
@@ -153,17 +157,17 @@ I came from a Java background (JCCC networking class, enterprise mindset). My bi
 
 ---
 
-## Why This Matters for IBM
+## Why This Matters for Security Engineering
 
-The IBM "Entry-Level AI Software Engineer" role requires:
+Security engineering roles require:
 
-- Backend systems design (Flask, PostgreSQL, Docker); Vappler proves this
-- Algorithmic thinking under pressure; This repo proves this
-- Security-aware engineering; Every solution maps to a security use case
+- Backend systems design (Flask, PostgreSQL, Docker) — Vappler proves this
+- Algorithmic thinking under pressure — this repo proves this
+- Security-aware engineering — every solution maps to a real security use case
 
 **I'm not only solving puzzles, but demonstrating the SAME thought process I use to architect production systems.**
 
-When IBM asks "tell me about a time you optimized performance," I'll talk about:
+When asked "tell me about a time you optimized performance," I talk about:
 
 1. **Vappler's dashboard:** Reduced query latency from 2.3s → 300ms (87%) using materialized views
 2. **Two Sum pattern:** Reduced time complexity from O(n²) → O(n) using hash maps
@@ -174,17 +178,14 @@ When IBM asks "tell me about a time you optimized performance," I'll talk about:
 
 ## Next Steps
 
-**Immediate (Feb 5-6):**
+**Immediate:**
 
-- Valid Anagram (hash map counting pattern)
-- Valid Parentheses (stack pattern)
+- Valid Anagram (hash map counting pattern) ✅
+- Valid Parentheses (stack pattern) ✅
+- Valid Palindrome (two pointers pattern) ✅
 - Longest Substring Without Repeating Characters (sliding window)
 
-**By Feb 7:** 10 problems solved, all with security context documented
-
-**Feb 8-9:** Take IBM HackerRank assessment
-
-**Goal:** Prove I can translate requirements → algorithm → optimized code under time pressure, with security applications embedded in my thinking.
+**Goal:** Continue building out each pattern category with production security context embedded in every solution.
 
 ---
 
@@ -200,7 +201,7 @@ When IBM asks "tell me about a time you optimized performance," I'll talk about:
 - Step-by-step logic
 - Cybersecurity use case
 
-**Why over-document?** Because in production (Vappler), I maintain 28-file microservices architecture. Future me (or teammates) needs to understand WHY I chose a dict over a list, not just THAT I chose it.
+**Why over-document?** Because in production (Vappler), I maintain a 28-file microservices architecture. Future me (or teammates) needs to understand WHY I chose a dict over a list, not just THAT I chose it.
 
 ---
 
@@ -210,14 +211,14 @@ When IBM asks "tell me about a time you optimized performance," I'll talk about:
 rduckworth@aspidasecurity.io  
 [LinkedIn](https://www.linkedin.com/in/rduckworthfl333)  
 [Portfolio](https://aspidasecurity.io)  
-[Vappler Docs](https://github.com/rduckworthfl-ux/vapplerDocs)
+[Vappler Docs](https://github.com/rduckworthfl-ux/vapplerDocs)  
 [Website](https://aspidasecurity.io)
 
 ---
 
 ## Acknowledgment
 
-This repository is a forcing function. I'm not naturally a "whiteboard coder";I'm a systems builder who debugs production crashes at 3 AM. But IBM's interview process tests algorithmic thinking, so I'm learning to formalize the patterns I've been using intuitively.
+This repository is a forcing function. I'm not naturally a "whiteboard coder" — I'm a systems builder who debugs production crashes at 3 AM. But technical interviews test algorithmic thinking, so I'm learning to formalize the patterns I've been using intuitively.
 
 **Turns out:** The hash map that powers Vappler's CVE correlation is the SAME hash map that solves Two Sum.
 
@@ -225,8 +226,8 @@ I just needed to see the math. Now I do.
 
 ---
 
-**Last Updated:** Feb 4, 2026, 20:47 CST  
-**Problems Solved:** 2 (Two Sum, Contains Duplicate)  
-**Target:** 10 by Feb 7
+**Last Updated:** March 14, 2026  
+**Problems Solved:** 5 (Two Sum, Contains Duplicate, Valid Anagram, Valid Parentheses, Valid Palindrome)  
+**Target:** 10+ across all pattern categories
 
 ---
