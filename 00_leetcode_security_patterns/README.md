@@ -100,8 +100,6 @@ def find_exploit_chain(vulnerabilities, risk_threshold):
         seen[vuln.cvss_score] = i
 ```
 
-````
-
 **Why it matters:** SIEM systems process millions of events/second. O(n²) brute force (checking every pair) would crash the system. Hash maps enable real-time correlation.
 
 **Result:** Accepted, beats 51.92% on runtime (3ms)
@@ -229,4 +227,3 @@ I just needed to see the math. Now I do.
 **Target:** 10+ across all pattern categories
 
 ---
-````
