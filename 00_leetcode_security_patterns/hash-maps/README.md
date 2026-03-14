@@ -17,9 +17,9 @@
 
 ## Problems in This Category
 
-1. **[Two Sum](./two-sum/)** - Find pair summing to target
-2. **[Contains Duplicate](./contains-duplicate/)** - Check if value appears twice (uses Set variant)
-3. **Valid Anagram** (coming soon) - Count character frequencies
+1. **[Two Sum](./two-sum/)** — Find pair summing to target
+2. **[Contains Duplicate](./contains-duplicate/)** — Check if value appears twice (uses Set variant)
+3. **[Valid Anagram](./valid-anagram/)** — Count character frequencies
 
 ---
 
@@ -30,6 +30,8 @@ Hash maps power:
 - **Threat intelligence lookups:** Check if IP/domain is in blocklist (O(1) vs scanning entire list)
 - **Log deduplication:** Filter duplicate security events by hashing event signatures
 - **CVE correlation:** Map vulnerability IDs to CVSS scores for instant risk calculation
+- **Username spoofing detection:** Character-frequency maps flag anagram-based impersonation attacks
+- **Obfuscated payload detection:** Frequency maps catch rearranged malware strings that evade static AV
 
 In Vappler, I use Redis (in-memory hash map) to cache:
 
