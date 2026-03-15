@@ -133,7 +133,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ### iApply
 
-**iApply** is a locally-hosted, privacy-first job application assistant built by Aspida Security. It uses a Retrieval-Augmented Generation (RAG) pipeline backed by a FAISS vector store and Groq (Llama 3) to intelligently fill application forms — learning from every session and storing all data in an AES-256-GCM encrypted local vault. The application is engineered with layered security controls including Argon2id key derivation, OS-native credential storage, network isolation, and LLM prompt injection defenses.
+**iApply** is a locally-hosted, privacy-first job application assistant built by Aspida Security. It uses a Retrieval-Augmented Generation (RAG) pipeline backed by a FAISS vector store and Groq (Llama 3) to intelligently fill application forms  -  learning from every session and storing all data in an AES-256-GCM encrypted local vault. The application is engineered with layered security controls including Argon2id key derivation, OS-native credential storage, network isolation, and LLM prompt injection defenses.
 
 <p align="center">
   <a href="https://github.com/sponsors/rduckworthfl-ux">
@@ -153,7 +153,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
   <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png" alt="iApply Dashboard" width="860"/>
 </a>
 
-<br/><sub><i>Dashboard — engine control center with live feed, session counter, and status indicator</i></sub>
+<br/><sub><i>Dashboard  -  engine control center with live feed, session counter, and status indicator</i></sub>
 
 <br/><br/>
 
@@ -189,7 +189,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
       <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-HUD.png">
         <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-HUD.png" width="220" alt="HUD"/>
       </a>
-      <br/><sub>HUD — Live Command Interface</sub>
+      <br/><sub>HUD  -  Live Command Interface</sub>
     </td>
     <td align="center">
       <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Review.png">
@@ -234,7 +234,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery            |
 | [17. Secure Linux Dev Infrastructure & Hardening](./17_Secure_Linux_Dev_Infrastructure_and_Hardening/)                       | System Hardening / DevSecOps                                   |
 | [18. Linux System Recovery & Administrative Fail Safe](./18_Linux_System_Recovery_and_Administrative_Fail_Safe/)             | System Recovery / Forensics                                    |
-| [19. iApply — Local RAG Application](./19_iApply/)                                                                           | AI / RAG / LLM Integration / Secure Application Design         |
+| [19. iApply  -  Local RAG Application](./19_iApply/)                                                                           | AI / RAG / LLM Integration / Secure Application Design         |
 
 ---
 
@@ -245,6 +245,6 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ---
 
-_"Cybersecurity is not just about defense — it’s about foresight, resilience, and precision.”_
+_"Cybersecurity is not just about defense  -  it’s about foresight, resilience, and precision.”_
 
 </div>

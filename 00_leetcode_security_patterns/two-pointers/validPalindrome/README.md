@@ -1,7 +1,7 @@
 # Valid Palindrome (LeetCode #125)
 
 **Difficulty:** Easy  
-**Pattern:** Two Pointers — Inward Scan with Normalization  
+**Pattern:** Two Pointers  -  Inward Scan with Normalization  
 **Solved:** March 14, 2026  
 **Runtime:** 9ms (beats 43.14%)  
 **Memory:** 19.57MB (beats 91.14%)
@@ -58,7 +58,7 @@ def is_normalized_palindrome(raw_input: str) -> bool:
     """
     Before storing user-supplied strings (asset names, scan target labels),
     Vappler normalizes input by stripping non-alphanumeric characters and
-    lowercasing — the same transformation used here.
+    lowercasing  -  the same transformation used here.
 
     This also validates that special-character padding (a common injection
     technique) does not create asymmetric inputs that bypass downstream
@@ -89,9 +89,9 @@ def is_normalized_palindrome(raw_input: str) -> bool:
 
 The two-pointer technique applies directly to:
 
-- **Log field normalization:** SIEM parsers strip punctuation/casing before correlation — identical transformation, run on millions of events/second
+- **Log field normalization:** SIEM parsers strip punctuation/casing before correlation  -  identical transformation, run on millions of events/second
 - **DPI palindrome detection:** Reflection attacks generate symmetric packet payloads; two-pointer scanning detects them in O(n) without buffering
-- **CVSS sorted-array traversal:** Two pointers on a sorted vulnerability list find pairs exceeding a combined risk threshold in O(n) — used in Vappler's prioritization engine
+- **CVSS sorted-array traversal:** Two pointers on a sorted vulnerability list find pairs exceeding a combined risk threshold in O(n)  -  used in Vappler's prioritization engine
 
 In Vappler, this pattern enables:
 
@@ -107,9 +107,9 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 
 **Key highlights:**
 
-- Inner `while` loops skip non-alphanumeric in-place — no extra string allocation
+- Inner `while` loops skip non-alphanumeric in-place  -  no extra string allocation
 - `.isalnum()` handles both letters and digits cleanly
-- `.lower()` applied only at comparison — not to the whole string upfront
+- `.lower()` applied only at comparison  -  not to the whole string upfront
 
 ---
 
@@ -118,7 +118,7 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 | Metric    | Value | Reasoning                                           |
 | --------- | ----- | --------------------------------------------------- |
 | **Time**  | O(n)  | Each character visited at most once                 |
-| **Space** | O(1)  | Only two integer pointers — no new string allocated |
+| **Space** | O(1)  | Only two integer pointers  -  no new string allocated |
 
 **Best case:** First vs last character mismatch → O(1)  
 **Worst case:** Full valid palindrome → O(n) scan  
@@ -128,8 +128,8 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 
 ## Lessons Learned
 
-1. **O(1) space matters:** Creating a cleaned string first works but costs O(n) memory — pointers avoid it
-2. **Nested while loops:** The inner skips are still O(n) total across the whole run — not O(n²)
+1. **O(1) space matters:** Creating a cleaned string first works but costs O(n) memory  -  pointers avoid it
+2. **Nested while loops:** The inner skips are still O(n) total across the whole run  -  not O(n²)
 3. **`.isalnum()` is your friend:** Built-in Python method handles all alphanumeric in one call
 4. **Two pointers generalize:** This same pattern solves container-with-most-water, sorted-pair-sum, and more
 
@@ -137,9 +137,9 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 
 ## Related Problems
 
-- **Two Sum II — Input Array Is Sorted** (LC 167) — Two pointers on sorted array
-- **Container With Most Water** (LC 11) — Two pointers maximize area
-- **3Sum** (LC 15) — Two pointers inside a loop for triplet detection
+- **Two Sum II  -  Input Array Is Sorted** (LC 167)  -  Two pointers on sorted array
+- **Container With Most Water** (LC 11)  -  Two pointers maximize area
+- **3Sum** (LC 15)  -  Two pointers inside a loop for triplet detection
 
 ---
 

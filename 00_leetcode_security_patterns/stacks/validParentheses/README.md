@@ -1,7 +1,7 @@
 # Valid Parentheses (LeetCode #20)
 
 **Difficulty:** Easy  
-**Pattern:** Stack — Last In, First Out (LIFO) Bracket Matching  
+**Pattern:** Stack  -  Last In, First Out (LIFO) Bracket Matching  
 **Solved:** March 14, 2026  
 **Runtime:** 3ms (beats 34.55%)  
 **Memory:** 19.32MB (beats 59.78%)
@@ -32,7 +32,7 @@ The most recently opened bracket must be the next one closed.
 ### **2. The Algorithm**
 
 1. Initialize empty stack
-2. Build mapping: `{closing: opening}` — e.g. `')': '('`
+2. Build mapping: `{closing: opening}`  -  e.g. `')': '('`
 3. For each character:
    - If closing bracket → pop stack, verify it matches `mapping[char]`
    - If opening bracket → push onto stack
@@ -43,7 +43,7 @@ The most recently opened bracket must be the next one closed.
 **Naive approach:** Repeatedly scan and remove matched pairs → O(n²)  
 **Optimized:** Push/pop in a single pass → O(n) time, O(n) space
 
-**The sentinel trick:** Use `'#'` as a default pop value when the stack is empty — avoids IndexError and cleanly handles mismatched closers at the start.
+**The sentinel trick:** Use `'#'` as a default pop value when the stack is empty  -  avoids IndexError and cleanly handles mismatched closers at the start.
 
 ---
 
@@ -121,18 +121,18 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 
 ## Lessons Learned
 
-1. **Map closing to opening:** Allows direct `mapping[char]` lookup on close — cleaner than the reverse
-2. **Sentinel value:** `stack.pop() if stack else '#'` — one line handles the empty stack edge case
+1. **Map closing to opening:** Allows direct `mapping[char]` lookup on close  -  cleaner than the reverse
+2. **Sentinel value:** `stack.pop() if stack else '#'`  -  one line handles the empty stack edge case
 3. **LIFO = Stack:** Any time the "most recent" item is what matters, reach for a stack
-4. **len(stack) == 0:** Don't just check for `False` returns — unclosed openers must also fail
+4. **len(stack) == 0:** Don't just check for `False` returns  -  unclosed openers must also fail
 
 ---
 
 ## Related Problems
 
-- **Min Stack** (LC 155) — Stack with O(1) minimum tracking
-- **Daily Temperatures** (LC 739) — Monotonic stack pattern
-- **Evaluate Reverse Polish Notation** (LC 150) — Stack for expression parsing
+- **Min Stack** (LC 155)  -  Stack with O(1) minimum tracking
+- **Daily Temperatures** (LC 739)  -  Monotonic stack pattern
+- **Evaluate Reverse Polish Notation** (LC 150)  -  Stack for expression parsing
 
 ---
 

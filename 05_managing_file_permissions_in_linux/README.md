@@ -4,7 +4,7 @@
 
 The Principle of Least Privilege is a cornerstone of cybersecurity: users and processes should only have the bare minimum access rights necessary to perform their function.
 
-In this project, I audited and remediated the file system permissions for the organization's research team. The objective was to identify insecure configurations—specifically "world-writable" files and improperly accessible directories—and enforce strict authorization controls using standard Linux command-line tools.
+In this project, I audited and remediated the file system permissions for the organization's research team. The objective was to identify insecure configurations - specifically "world-writable" files and improperly accessible directories - and enforce strict authorization controls using standard Linux command-line tools.
 
 ## Scenario & Strategy
 
@@ -75,4 +75,4 @@ chmod g-,o- drafts
 
 ## Summary
 
-This project highlights the critical role of the `chmod` command in system administration. By systematically identifying risks—such as hidden files with write permissions or directories exposed to the group—I was able to enforce the Principle of Least Privilege, significantly reducing the attack surface of the research server.
+This project highlights the critical role of the `chmod` command in system administration. By systematically identifying risks - such as hidden files with write permissions or directories exposed to the group - I was able to enforce the Principle of Least Privilege, significantly reducing the attack surface of the research server.

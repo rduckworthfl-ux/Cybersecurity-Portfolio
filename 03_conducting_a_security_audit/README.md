@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project involved a comprehensive internal security audit for Botium Toys to assess their adherence to industry standards and regulatory frameworks. The objective was to perform a **Gap Analysis**—identifying where current security controls fell short of best practices and legal requirements, specifically regarding **PCI DSS**, **GDPR**, and **SOC 2**.
+This project involved a comprehensive internal security audit for Botium Toys to assess their adherence to industry standards and regulatory frameworks. The objective was to perform a **Gap Analysis** - identifying where current security controls fell short of best practices and legal requirements, specifically regarding **PCI DSS**, **GDPR**, and **SOC 2**.
 
 ## Scenario & Scope
 

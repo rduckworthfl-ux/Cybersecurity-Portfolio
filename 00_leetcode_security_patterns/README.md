@@ -157,9 +157,9 @@ I came from a Java background (JCCC networking class, enterprise mindset). My bi
 
 Security engineering roles require:
 
-- Backend systems design (Flask, PostgreSQL, Docker) — Vappler proves this
-- Algorithmic thinking under pressure — this repo proves this
-- Security-aware engineering — every solution maps to a real security use case
+- Backend systems design (Flask, PostgreSQL, Docker)  -  Vappler proves this
+- Algorithmic thinking under pressure  -  this repo proves this
+- Security-aware engineering  -  every solution maps to a real security use case
 
 **I'm not only solving puzzles, but demonstrating the SAME thought process I use to architect production systems.**
 
@@ -214,7 +214,7 @@ rduckworth@aspidasecurity.io
 
 ## Acknowledgment
 
-This repository is a forcing function. I'm not naturally a "whiteboard coder" — I'm a systems builder who debugs production crashes at 3 AM. But technical interviews test algorithmic thinking, so I'm learning to formalize the patterns I've been using intuitively.
+This repository is a forcing function. I'm not naturally a "whiteboard coder"  -  I'm a systems builder who debugs production crashes at 3 AM. But technical interviews test algorithmic thinking, so I'm learning to formalize the patterns I've been using intuitively.
 
 **Turns out:** The hash map that powers Vappler's CVE correlation is the SAME hash map that solves Two Sum.
 

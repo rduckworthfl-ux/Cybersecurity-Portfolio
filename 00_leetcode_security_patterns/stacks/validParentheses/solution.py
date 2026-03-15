@@ -6,7 +6,7 @@ class Solution:
         """
         CYBERSECURITY APPLICATION:
         The stack-based bracket matcher is one of the most deployed algorithms
-        in security tooling — anywhere structured text must be validated before
+        in security tooling  -  anywhere structured text must be validated before
         it reaches a parser, interpreter, or database.
 
         Real-world use cases in my Vappler platform:
@@ -29,7 +29,7 @@ class Solution:
 
         - JSON/BSON API Request Validation:
           Flask API endpoints in Vappler validate bracket structure of incoming
-          JSON payloads before deserialization — preventing malformed-input
+          JSON payloads before deserialization  -  preventing malformed-input
           attacks and unexpected behavior in nested data parsers.
 
         Pattern: Push opening brackets → On closing bracket, check top of stack
@@ -50,13 +50,13 @@ class Solution:
 
         for char in s:
             if char in mapping:
-                # It's a closing bracket — pop the stack and verify match
+                # It's a closing bracket  -  pop the stack and verify match
                 # Use '#' sentinel if stack is empty (prevents IndexError)
                 top = stack.pop() if stack else '#'
                 if top != mapping[char]:
-                    return False  # Mismatch — invalid structure
+                    return False  # Mismatch  -  invalid structure
             else:
-                # It's an opening bracket — push onto stack to match later
+                # It's an opening bracket  -  push onto stack to match later
                 stack.append(char)
 
         # Step 3: Valid only if all opening brackets were matched (stack empty)

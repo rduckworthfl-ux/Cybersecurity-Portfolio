@@ -40,7 +40,7 @@ Explanation: All elements are distinct
 **If YES:** Duplicate found → return `True`  
 **If NO:** Remember this number for future iterations
 
-**No math needed**—just a simple existence check.
+**No math needed** - just a simple existence check.
 
 ---
 
@@ -249,7 +249,7 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 1. **Simpler than Two Sum:** No math, no indices, just membership testing
 2. **Set vs Dict clarity:** Choose storage based on what you need to retrieve (existence vs value)
 3. **Architecture matters:** Database for persistent deduplication, Python sets for transient tasks
-4. **Performance improvement:** 89.35% faster (vs 51.92% on Two Sum)—early return optimization working
+4. **Performance improvement:** 89.35% faster (vs 51.92% on Two Sum) - early return optimization working
 5. **Java → Python win:** `num in seen` is SO much cleaner than `seen.contains(num)`
 
 ---

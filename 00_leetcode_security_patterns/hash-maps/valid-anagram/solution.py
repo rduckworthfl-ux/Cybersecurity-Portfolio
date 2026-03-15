@@ -13,7 +13,7 @@ class Solution:
         - Username Spoofing Detection (IAM):
           Attackers register "admni" or "adm1n" to impersonate "admin".
           An anagram check flags when two usernames share identical character
-          sets — a strong signal for identity-based attacks.
+          sets  -  a strong signal for identity-based attacks.
 
         - Obfuscated Malware String Detection:
           Malware authors rearrange known attack signatures to evade static
@@ -57,7 +57,7 @@ class Solution:
         for char in t:
             count[char] = count.get(char, 0) - 1
 
-        # Step 4: All frequencies must be zero — any remainder means mismatch
+        # Step 4: All frequencies must be zero  -  any remainder means mismatch
         for val in count.values():
             if val != 0:
                 return False

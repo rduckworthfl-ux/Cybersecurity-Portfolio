@@ -17,9 +17,9 @@
 
 ## Problems in This Category
 
-1. **[Two Sum](./two-sum/)** — Find pair summing to target
-2. **[Contains Duplicate](./contains-duplicate/)** — Check if value appears twice (uses Set variant)
-3. **[Valid Anagram](./valid-anagram/)** — Count character frequencies
+1. **[Two Sum](./two-sum/)**  -  Find pair summing to target
+2. **[Contains Duplicate](./contains-duplicate/)**  -  Check if value appears twice (uses Set variant)
+3. **[Valid Anagram](./valid-anagram/)**  -  Count character frequencies
 
 ---
 

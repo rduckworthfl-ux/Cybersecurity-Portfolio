@@ -1,7 +1,7 @@
 # Valid Anagram (LeetCode #242)
 
 **Difficulty:** Easy  
-**Pattern:** Hash Map — Character Frequency Counting  
+**Pattern:** Hash Map  -  Character Frequency Counting  
 **Solved:** March 14, 2026  
 **Runtime:** 11ms (beats 75.92%)  
 **Memory:** 19.23MB (beats 98.50%)
@@ -57,7 +57,7 @@ This pattern is the backbone of string-based threat detection.
 def detect_username_spoof(registered_users: list[str], new_username: str) -> bool:
     """
     Flag account registration if the new username is an anagram
-    of any existing privileged account — a classic IAM attack vector.
+    of any existing privileged account  -  a classic IAM attack vector.
 
     Example:
     - Existing: "admin"
@@ -106,7 +106,7 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 **Key highlights:**
 
 - Early-exit length check eliminates unnecessary work
-- Single dict (not two) — decrement on second pass = elegant O(1) space
+- Single dict (not two)  -  decrement on second pass = elegant O(1) space
 - Step-by-step comments explain WHY, not just WHAT
 
 ---
@@ -128,16 +128,16 @@ See [`solution.py`](./solution.py) for fully annotated implementation.
 
 1. **Decrement, don't use two maps:** One dict with +1/-1 is cleaner and uses half the memory
 2. **Early exit is free performance:** Length check costs O(1) and eliminates O(n) work
-3. **O(1) space claim:** "Up to 26 keys" is a constant, not n — technically O(1) for bounded alphabets
-4. **Extension:** For Unicode strings, this still works — just a larger but bounded key space
+3. **O(1) space claim:** "Up to 26 keys" is a constant, not n  -  technically O(1) for bounded alphabets
+4. **Extension:** For Unicode strings, this still works  -  just a larger but bounded key space
 
 ---
 
 ## Related Problems
 
-- **Two Sum** (LC 1) — Hash map for O(1) complement lookup
-- **Contains Duplicate** (LC 217) — Set variant (membership only)
-- **Group Anagrams** (LC 49) — Hash map with sorted string as key
+- **Two Sum** (LC 1)  -  Hash map for O(1) complement lookup
+- **Contains Duplicate** (LC 217)  -  Set variant (membership only)
+- **Group Anagrams** (LC 49)  -  Hash map with sorted string as key
 
 ---
 

@@ -30,7 +30,7 @@ The assessment followed the NIST risk analysis guidelines to identify vulnerabil
 
 **Objective:** Detect anomalies before they become breaches.
 
-- **Auditing:** Established a schedule for regular security audits of MySQL logs. This ensures that suspicious behavior—such as repeated failed login attempts or unusual query patterns—is identified immediately.
+- **Auditing:** Established a schedule for regular security audits of MySQL logs. This ensures that suspicious behavior - such as repeated failed login attempts or unusual query patterns - is identified immediately.
 
 ### 3. Managerial Controls (Human Factor)
 
