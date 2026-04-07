@@ -51,6 +51,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
   <img src="https://img.shields.io/badge/Windows-Server%20%7C%20Client-blue?logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/Networking-Wireshark%20%7C%20Nmap%20%7C%20UFW-orange?logo=wireshark&logoColor=white" />
   <img src="https://img.shields.io/badge/Security-Nessus%20%7C%20Metasploit%20%7C%20ClamAV-red?logo=hackaday&logoColor=white" />
+  <img src="https://img.shields.io/badge/SIEM-Wazuh%20%7C%20OpenSearch-blue?logo=opensearch&logoColor=white" />
   <img src="https://img.shields.io/badge/Programming-Python%20%7C%20Java%20%7C%20SQL-green?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Scripting-Bash%20%7C%20PowerShell-yellow?logo=gnu-bash&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloud-Oracle%20Cloud%20(OCI)-purple?logo=oracle&logoColor=white" />
@@ -62,7 +63,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 ### Security Principles
 
-**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS
+**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS • Availability Incident Response • CIA Triad Analysis
 
 ### Software Engineering & Development
 
@@ -78,6 +79,8 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 **Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin) • FortiGate (FortiOS) • Web Filtering • SSL Inspection • Application Control • Intrusion Detection Systems
 
+**SIEM & Log Management:** Wazuh • OpenSearch • OpenSearch Dashboard • ISM (Index State Management) Policy Design • Index Lifecycle Management • OpenSearch REST API • Log Retention Strategy
+
 **Programming & Scripting:** Python • Java • SQL • Bash • PowerShell • TypeScript
 
 **Databases:** PostgreSQL • Supabase • Materialized Views • Row-Level Security (RLS) • Query Optimization • Indexing Strategies
@@ -86,11 +89,13 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 **AI & Automation:** LangChain (Chains · Prompts · Output Parsers) • Retrieval-Augmented Generation (RAG) • FAISS Vector Store • Semantic Document Retrieval • LLM API Integration (Groq / Llama 3) • Selenium WebDriver • ChromeDriver • Prompt Engineering & Template Design • Local AI Inference Pipelines
 
-**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI) • Docker • Docker Compose
+**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI) • Docker • Docker Compose • LVM Administration (pvresize · lvextend · resize2fs)
 
-**Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing
+**Storage & Disk Management:** LVM Logical Volume Management • Filesystem Expansion (resize2fs) • Docker Volume Forensics • ncdu • du / df • Disk Utilization Analysis
 
-**Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis
+**Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing • Docker Volume Inspection • Container Lifecycle Forensics
+
+**Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis • SIEM Availability Incident Response • NIST SP 800-61 Incident Handling
 
 ### Operating Systems
 
@@ -98,7 +103,7 @@ Windows (Client & Server) • Linux (Kali, Ubuntu, Lubuntu) • Linux Installati
 
 ### Core Competencies
 
-**Security:** Network Security • Penetration Testing • Threat Analysis • Incident Response • Vulnerability Management • System Hardening • Endpoint Hardening (Linux) • Compliance
+**Security:** Network Security • Penetration Testing • Threat Analysis • Incident Response • Vulnerability Management • System Hardening • Endpoint Hardening (Linux) • SIEM Operations & Administration • Compliance
 
 **Engineering:** Algorithm Optimization • Database Architecture • API Development • Performance Tuning • Technical Documentation • Problem Decomposition • Production Debugging
 
@@ -133,7 +138,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ### iApply
 
-**iApply** is a locally-hosted, privacy-first job application assistant built by Aspida Security. It uses a Retrieval-Augmented Generation (RAG) pipeline backed by a FAISS vector store and Groq (Llama 3) to intelligently fill application forms  -  learning from every session and storing all data in an AES-256-GCM encrypted local vault. The application is engineered with layered security controls including Argon2id key derivation, OS-native credential storage, network isolation, and LLM prompt injection defenses.
+**iApply** is a locally-hosted, privacy-first job application assistant built by Aspida Security. It uses a Retrieval-Augmented Generation (RAG) pipeline backed by a FAISS vector store and Groq (Llama 3) to intelligently fill application forms - learning from every session and storing all data in an AES-256-GCM encrypted local vault. The application is engineered with layered security controls including Argon2id key derivation, OS-native credential storage, network isolation, and LLM prompt injection defenses.
 
 <p align="center">
   <a href="https://github.com/sponsors/rduckworthfl-ux">
@@ -153,7 +158,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
   <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png" alt="iApply Dashboard" width="860"/>
 </a>
 
-<br/><sub><i>Dashboard  -  engine control center with live feed, session counter, and status indicator</i></sub>
+<br/><sub><i>Dashboard - engine control center with live feed, session counter, and status indicator</i></sub>
 
 <br/><br/>
 
@@ -213,28 +218,29 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ## Portfolio Projects
 
-| Project Title                                                                                                                | Category                                                       |
-| :--------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------- |
-| [00. LeetCode Security Patterns](./00_leetcode_security_patterns/)                                                           | Algorithms / Software Engineering / Cybersecurity Applications |
-| [01. Professional Statement](./01_professional_statement/)                                                                   | Career Development                                             |
-| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_and_security/)                                 | Network Security                                               |
-| [03. Conducting a Security Audit](./03_conducting_a_security_audit/)                                                         | Risk Management                                                |
-| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small_business/)               | Vulnerability Assessment                                       |
-| [05. Managing File Permissions in Linux](./05_managing_file_permissions_in_linux/)                                           | Linux Administration                                           |
-| [06. Applying Filters to SQL Queries](./06_applying_filters_to_sql_queries/)                                                 | SQL & Data Analysis                                            |
-| [07. Documenting an Incident Handler's Journal](./07_documenting_an_incident_handlers_journal/)                              | Incident Response                                              |
-| [08. Importing & Parsing a Text File with Python](./08_importing_and_parsing_a_text_file/)                                   | Python & Automation                                            |
-| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_oci/)                                                 | Cloud Security                                                 |
-| [10. Certifications](./10_certifications/)                                                                                   | Professional Development                                       |
-| [11. Data Integrity Verification Tool](./11_data_integrity_verifier/)                                                        | Cryptography / Java Development                                |
-| [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing                 |
-| [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/)                                         | Network Security / System Administration                       |
-| [14. Secure OS Migration and Endpoint Hardening](./14_secure_os_migration_and_endpoint_hardening_for_legacy_hardware/)       | OS Migration / Endpoint Security / Linux Hardening             |
-| [15. Port Reservation Forensic Investigation](./15_Port_Reservation_Forensic_Investigation/)                                 | Incident Response / Forensics Analysis / System Administration |
-| [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery            |
-| [17. Secure Linux Dev Infrastructure & Hardening](./17_Secure_Linux_Dev_Infrastructure_and_Hardening/)                       | System Hardening / DevSecOps                                   |
-| [18. Linux System Recovery & Administrative Fail Safe](./18_Linux_System_Recovery_and_Administrative_Fail_Safe/)             | System Recovery / Forensics                                    |
-| [19. iApply  -  Local RAG Application](./19_iApply/)                                                                           | AI / RAG / LLM Integration / Secure Application Design         |
+| Project Title                                                                                                                | Category                                                          |
+| :--------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------- |
+| [00. LeetCode Security Patterns](./00_leetcode_security_patterns/)                                                           | Algorithms / Software Engineering / Cybersecurity Applications    |
+| [01. Professional Statement](./01_professional_statement/)                                                                   | Career Development                                                |
+| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_and_security/)                                 | Network Security                                                  |
+| [03. Conducting a Security Audit](./03_conducting_a_security_audit/)                                                         | Risk Management                                                   |
+| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small_business/)               | Vulnerability Assessment                                          |
+| [05. Managing File Permissions in Linux](./05_managing_file_permissions_in_linux/)                                           | Linux Administration                                              |
+| [06. Applying Filters to SQL Queries](./06_applying_filters_to_sql_queries/)                                                 | SQL & Data Analysis                                               |
+| [07. Documenting an Incident Handler's Journal](./07_documenting_an_incident_handlers_journal/)                              | Incident Response                                                 |
+| [08. Importing & Parsing a Text File with Python](./08_importing_and_parsing_a_text_file/)                                   | Python & Automation                                               |
+| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_oci/)                                                 | Cloud Security                                                    |
+| [10. Certifications](./10_certifications/)                                                                                   | Professional Development                                          |
+| [11. Data Integrity Verification Tool](./11_data_integrity_verifier/)                                                        | Cryptography / Java Development                                   |
+| [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing                    |
+| [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/)                                         | Network Security / System Administration                          |
+| [14. Secure OS Migration and Endpoint Hardening](./14_secure_os_migration_and_endpoint_hardening_for_legacy_hardware/)       | OS Migration / Endpoint Security / Linux Hardening                |
+| [15. Port Reservation Forensic Investigation](./15_Port_Reservation_Forensic_Investigation/)                                 | Incident Response / Forensics Analysis / System Administration    |
+| [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery               |
+| [17. Secure Linux Dev Infrastructure & Hardening](./17_Secure_Linux_Dev_Infrastructure_and_Hardening/)                       | System Hardening / DevSecOps                                      |
+| [18. Linux System Recovery & Administrative Fail Safe](./18_Linux_System_Recovery_and_Administrative_Fail_Safe/)             | System Recovery / Forensics                                       |
+| [19. iApply - Local RAG Application](./19_iApply/)                                                                           | AI / RAG / LLM Integration / Secure Application Design            |
+| [20. Wazuh SIEM Availability Incident Response](./20_wazuh_siem_availability_incident_response/)                             | Incident Response / SIEM Operations / Linux System Administration |
 
 ---
 
@@ -245,6 +251,6 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ---
 
-_"Cybersecurity is not just about defense  -  it’s about foresight, resilience, and precision.”_
+_"Cybersecurity is not just about defense - it's about foresight, resilience, and precision."_
 
 </div>
