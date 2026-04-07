@@ -2,7 +2,7 @@
 
 **Incident ID:** INC-2026-0406-001  
 **Date:** April 6, 2026  
-**Analyst:** [Your Name]  
+**Analyst:** Ryan Duckworth  
 **Classification:** Availability Incident - Full Service Outage  
 **Severity:** Medium-High  
 **Status:** Resolved  
@@ -462,5 +462,5 @@ If it's growing rapidly again, the event ingestion rate may exceed what the mana
 
 ---
 
-_Report authored by: [Your Name] | April 6, 2026_  
+_Report authored by: Ryan Duckworth | April 6, 2026_  
 _Environment: Personal Home Lab - aspida-security project_
