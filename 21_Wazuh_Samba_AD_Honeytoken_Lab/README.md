@@ -9,7 +9,7 @@ was to go beyond a generic SIEM deployment and produce real detection engineerin
 custom PCRE2-based decoders, a multi-rule honeytoken tripwire chain, and a validated alert
 pipeline that identifies unauthorized access to privileged bait accounts. The lab concluded
 with a live adversary simulation from Kali that triggered a Level 15 critical alert in Wazuh
-— with full source attribution — proving the detection chain end-to-end.
+ --  with full source attribution -- proving the detection chain end-to-end.
 
 ---
 
@@ -27,7 +27,7 @@ exposed to the internet. The Samba DC runs as a Docker container (`diegogslomp/s
 with bind-mounted volumes for `/usr/local/samba/var` (logs) and `/usr/local/samba/etc`
 (config), allowing the host-side Wazuh agent to tail Samba logs directly from the filesystem.
 
-**Domain Structure — `LABRANGE.LOCAL`**
+**Domain Structure -- `LABRANGE.LOCAL`**
 
 ```
 DC=labrange,DC=local
@@ -61,12 +61,12 @@ DC=labrange,DC=local
 
 Deployed Sysmon for Linux on `ryan-HP-Notebook` to capture:
 
-- **EventID 1** — Process creation
-- **EventID 3** — Network connections
-- **EventID 5** — Process termination
+- **EventID 1** -- Process creation
+- **EventID 3** -- Network connections
+- **EventID 5** -- Process termination
 
 **The Challenge:** Wazuh ships Sysmon decoders targeting Windows XML format. Linux Sysmon
-emits a structurally different XML schema — Wazuh's default decoders silently drop every
+emits a structurally different XML schema -- Wazuh's default decoders silently drop every
 event. I engineered a custom decoder set (`local_decoder.xml`) and corresponding rules
 (`local_rules.xml`, IDs `100050`–`100053`) to parse the Linux Sysmon XML schema and produce
 structured Wazuh alerts.
@@ -114,7 +114,7 @@ docker exec dc01 samba-tool group addmembers "Domain Admins" adm-legacy
 ```
 
 These accounts are intentionally designed to look like forgotten, high-value credentials.
-Any authentication attempt against either account is, by definition, malicious — no
+Any authentication attempt against either account is, by definition, malicious -- no
 legitimate process should ever use them.
 
 **Audit Logging Configuration (`smb.conf`):**
@@ -127,7 +127,7 @@ legitimate process should ever use them.
 ```
 
 Setting `auth_audit:5` forces Samba to write a structured `Auth:` line for every
-authentication attempt — success or failure — into `log.samba`. The Wazuh agent on `os2`
+authentication attempt -- success or failure -- into `log.samba`. The Wazuh agent on `os2`
 tails both `log.samba` and `log.<attacker-ip>` via `ossec.conf` `<localfile>` blocks:
 
 ```xml
@@ -222,7 +222,7 @@ manager to parse the Samba `Auth:` log format.
 
 **Rule design rationale:**
 
-- Rule `100060` is a low-noise base event (Level 3) — it exists only as an anchor for
+- Rule `100060` is a low-noise base event (Level 3); it exists only as an anchor for
   child rules, keeping the alert queue clean during normal operations.
 - Rules `100061` and `100062` fire at Level 15 (Wazuh's maximum severity) and set
   `mail: true`, ensuring immediate notification on any honeytoken interaction.
@@ -299,7 +299,7 @@ Several non-trivial infrastructure problems were diagnosed and resolved during t
   the `4.8.0` manager rejected at enrollment. Pinned to `wazuh-agent=4.8.0-1` to match the
   manager.
 - **Samba log path discovery:** The `diegogslomp/samba-ad-dc` image places logs under
-  `/usr/local/samba/var/` — not `/var/log/samba/` as most documentation assumes. Located via
+  `/usr/local/samba/var/`, not `/var/log/samba/` as most documentation assumes. Located via
   `docker inspect dc01 --format '{{range .Mounts}}{{.Source}} -> {{.Destination}}{{end}}'`.
 - **`bind interfaces only` blocking Tailscale auth:** Removing `bind interfaces only` from
   `smb.conf` allowed Samba to accept NTLMv2 auth from the `100.x.x.x` Tailscale subnet.
@@ -313,19 +313,19 @@ Several non-trivial infrastructure problems were diagnosed and resolved during t
 
 The environment is wired and validated. The following campaigns are queued:
 
-**Campaign 1 — Cryptominer Simulation (T1496, T1059.004)**
+**Campaign 1 -- Cryptominer Simulation (T1496, T1059.004)**
 
 - Drop a fake miner binary on `ryan-HP-Notebook`
 - Sysmon EventID 1 fires on process creation; EventID 3 fires on outbound pool connection
 - Wazuh rules chain: process hash + network destination flagged
 - Validates the Sysmon decoder pipeline under active attack conditions
 
-**Campaign 2 — Credential Spray (T1110.003)**
+**Campaign 2 -- Credential Spray (T1110.003)**
 
 - Automated password spray against `LABRANGE\` accounts from Kali using `crackmapexec`
 - Rule `100064` (frequency/timeframe brute-force detection) validated under real spray volume
 
-**Campaign 3 — Lateral Movement via Pass-the-Hash (T1550.002)**
+**Campaign 3 -- Lateral Movement via Pass-the-Hash (T1550.002)**
 
 - Dump NTLM hash from a compromised endpoint, relay to Samba DC
 - Tests whether NTLMv2 relay traffic triggers `100060` base rule + any anomalous source
