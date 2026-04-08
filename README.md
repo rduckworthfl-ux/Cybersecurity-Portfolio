@@ -55,6 +55,10 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
   <img src="https://img.shields.io/badge/Programming-Python%20%7C%20Java%20%7C%20SQL-green?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Scripting-Bash%20%7C%20PowerShell-yellow?logo=gnu-bash&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloud-Oracle%20Cloud%20(OCI)-purple?logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/ActiveDirectory-Samba%20AD%20DC-blue?logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/MITRE-ATT%26CK-red?logoColor=white" />
+  <img src="https://img.shields.io/badge/Detection_Eng-Honeytoken%20%7C%20PCRE2-orange?logoColor=white" />
+  <img src="https://img.shields.io/badge/VPN-Tailscale-blue?logo=tailscale&logoColor=white" />
 </p>
 
 ---
@@ -63,7 +67,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 ### Security Principles
 
-**Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS • Availability Incident Response • CIA Triad Analysis
+**Detection Engineering** • **Honeytoken Design** • **MITRE ATT&CK Mapping** • **Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS • Availability Incident Response • CIA Triad Analysis
 
 ### Software Engineering & Development
 
@@ -79,7 +83,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 **Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin) • FortiGate (FortiOS) • Web Filtering • SSL Inspection • Application Control • Intrusion Detection Systems
 
-**SIEM & Log Management:** Wazuh • OpenSearch • OpenSearch Dashboard • ISM (Index State Management) Policy Design • Index Lifecycle Management • OpenSearch REST API • Log Retention Strategy
+**SIEM & Log Management:** Wazuh • OpenSearch • OpenSearch Dashboard • Sysmon for Linux (EventID 1/3/5) • ISM (Index State Management) Policy Design • Index Lifecycle Management • OpenSearch REST API • Log Retention Strategy
 
 **Programming & Scripting:** Python • Java • SQL • Bash • PowerShell • TypeScript
 
@@ -89,7 +93,9 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 **AI & Automation:** LangChain (Chains · Prompts · Output Parsers) • Retrieval-Augmented Generation (RAG) • FAISS Vector Store • Semantic Document Retrieval • LLM API Integration (Groq / Llama 3) • Selenium WebDriver • ChromeDriver • Prompt Engineering & Template Design • Local AI Inference Pipelines
 
-**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI) • Docker • Docker Compose • LVM Administration (pvresize · lvextend · resize2fs)
+**Active Directory:** Samba AD DC • samba-tool • Kerberos / NTLMv2 • OU Hierarchy Design • Honeytoken Account Injection
+
+**Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI) • Tailscale Mesh VPN • Docker • Docker Compose • LVM Administration (pvresize · lvextend · resize2fs)
 
 **Storage & Disk Management:** LVM Logical Volume Management • Filesystem Expansion (resize2fs) • Docker Volume Forensics • ncdu • du / df • Disk Utilization Analysis
 
@@ -241,6 +247,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [18. Linux System Recovery & Administrative Fail Safe](./18_Linux_System_Recovery_and_Administrative_Fail_Safe/)             | System Recovery / Forensics                                       |
 | [19. iApply - Local RAG Application](./19_iApply/)                                                                           | AI / RAG / LLM Integration / Secure Application Design            |
 | [20. Wazuh SIEM Availability Incident Response](./20_wazuh_siem_availability_incident_response/)                             | Incident Response / SIEM Operations / Linux System Administration |
+| [21. Wazuh SOC Lab: Samba AD Honeytoken Detection](./21_Wazuh_Samba_AD_Honeytoken_Lab/) | Detection Engineering / Active Directory / SIEM / MITRE ATT\&CK |
 
 ---
 
