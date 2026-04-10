@@ -9,7 +9,7 @@ was to go beyond a generic SIEM deployment and produce real detection engineerin
 custom PCRE2-based decoders, a multi-rule honeytoken tripwire chain, and a validated alert
 pipeline that identifies unauthorized access to privileged bait accounts. The lab concluded
 with a live adversary simulation from Kali that triggered a Level 15 critical alert in Wazuh
- --  with full source attribution -- proving the detection chain end-to-end.
+-- with full source attribution -- proving the detection chain end-to-end.
 
 ---
 
@@ -277,7 +277,6 @@ The alert contains full attribution: attacker IP (`100.118.130.124`), workstatio
 (`KALI`), authentication protocol (`NTLMv2`), and the exact honeytoken account accessed.
 A real SOC analyst receiving this alert has everything needed to initiate containment without
 additional log hunting.
-
 
 **Live Wazuh Threat Hunting Dashboard -- captured during attack simulation:**
 

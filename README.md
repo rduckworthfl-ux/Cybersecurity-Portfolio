@@ -58,6 +58,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
   <img src="https://img.shields.io/badge/ActiveDirectory-Samba%20AD%20DC-blue?logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/MITRE-ATT%26CK-red?logoColor=white" />
   <img src="https://img.shields.io/badge/Detection_Eng-Honeytoken%20%7C%20PCRE2-orange?logoColor=white" />
+  <img src="https://img.shields.io/badge/SOC_Automation-Jira%20%7C%20Discord%20%7C%20Webhooks-5865F2?logo=discord&logoColor=white" />
   <img src="https://img.shields.io/badge/VPN-Tailscale-blue?logo=tailscale&logoColor=white" />
 </p>
 
@@ -67,7 +68,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 ### Security Principles
 
-**Detection Engineering** • **Honeytoken Design** • **MITRE ATT&CK Mapping** • **Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS • Availability Incident Response • CIA Triad Analysis
+**Detection Engineering** • **Honeytoken Design** • **Security Automation** • **ChatOps Integration** • **Ticketing Workflow Design** • **MITRE ATT&CK Mapping** • **Defense-in-Depth** • **Principle of Least Privilege** • **Network Segmentation** • **Attack Surface Reduction** • Risk Assessment & Mitigation • Cryptography & Data Integrity • Cloud Security & OCI Hardening • SIEM / IDS / IPS • Availability Incident Response • CIA Triad Analysis
 
 ### Software Engineering & Development
 
@@ -86,6 +87,8 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 **SIEM & Log Management:** Wazuh • OpenSearch • OpenSearch Dashboard • Sysmon for Linux (EventID 1/3/5) • ISM (Index State Management) Policy Design • Index Lifecycle Management • OpenSearch REST API • Log Retention Strategy
 
 **Programming & Scripting:** Python • Java • SQL • Bash • PowerShell • TypeScript
+
+**Automation & Collaboration:** Jira Cloud • Discord Webhooks • Wazuh Integrator • REST API Integration • JSON Payload Transformation • Alert Escalation Workflow Design
 
 **Databases:** PostgreSQL • Supabase • Materialized Views • Row-Level Security (RLS) • Query Optimization • Indexing Strategies
 
@@ -109,7 +112,7 @@ Windows (Client & Server) • Linux (Kali, Ubuntu, Lubuntu) • Linux Installati
 
 ### Core Competencies
 
-**Security:** Network Security • Penetration Testing • Threat Analysis • Incident Response • Vulnerability Management • System Hardening • Endpoint Hardening (Linux) • SIEM Operations & Administration • Compliance
+**Security:** Network Security • Penetration Testing • Threat Analysis • Incident Response • Vulnerability Management • System Hardening • Endpoint Hardening (Linux) • SIEM Operations & Administration • Security Automation • Ticketing & ChatOps Workflow Operations • Compliance
 
 **Engineering:** Algorithm Optimization • Database Architecture • API Development • Performance Tuning • Technical Documentation • Problem Decomposition • Production Debugging
 
@@ -248,6 +251,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [19. iApply - Local RAG Application](./19_iApply/)                                                                           | AI / RAG / LLM Integration / Secure Application Design            |
 | [20. Wazuh SIEM Availability Incident Response](./20_wazuh_siem_availability_incident_response/)                             | Incident Response / SIEM Operations / Linux System Administration |
 | [21. Wazuh SOC Lab: Samba AD Honeytoken Detection](./21_Wazuh_Samba_AD_Honeytoken_Lab/) | Detection Engineering / Active Directory / SIEM / MITRE ATT\&CK |
+| [22. Automated SIEM Ticketing and ChatOps Pipeline](./22_Automated_SIEM_Ticketing_and_ChatOps_Pipeline/) | SIEM Automation / ChatOps / Ticketing / Detection Engineering |
 
 ---
 
