@@ -26,13 +26,19 @@
              alt="Fortinet Certified Associate in Cybersecurity" height="160"/>
       </a>
       <br/><sub><b>Fortinet Certified Associate<br/>in Cybersecurity</b></sub><br/>
-      <sub><a href="https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff">Credly</a> • <a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10_certifications/Fortinet%20Certified%20Associate%20in%20Cybersecurity.PDF.pdf">Certificate ↗</a></sub>
+      <sub><a href="https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff">Credly</a> • <a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10-certifications/Fortinet%20Certified%20Associate%20in%20Cybersecurity.PDF.pdf">Certificate ↗</a></sub>
     </td>
     <td align="center" style="padding: 16px;">
       <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/fortinet-fortigate-7-6-operator.png"
            alt="NSE 3 – FortiGate Operator Exam v7.6" height="160"/>
       <br/><sub><b>NSE 3 – FortiGate Operator<br/>Exam v7.6</b></sub><br/>
       <sub><a href="https://training.fortinet.com">Fortinet NSE Program ↗</a></sub>
+    </td>
+    <td align="center" style="padding: 16px;">
+      <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/ccna-introduction-to-networks.png"
+           alt="CCNA: Introduction to Networks" height="160"/>
+      <br/><sub><b>CCNA: Introduction<br/>to Networks</b></sub><br/>
+      <sub><a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10-certifications/CCNA-_Introduction_to_Networks_certificate_rduckw2-live-spcollege-edu_537afdb4-09ae-4337-a685-a0d69d4846f4.pdf">Certificate ↗</a></sub>
     </td>
   </tr>
 </table>
@@ -60,6 +66,9 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
   <img src="https://img.shields.io/badge/Detection_Eng-Honeytoken%20%7C%20PCRE2-orange?logoColor=white" />
   <img src="https://img.shields.io/badge/SOC_Automation-Jira%20%7C%20Discord%20%7C%20Webhooks-5865F2?logo=discord&logoColor=white" />
   <img src="https://img.shields.io/badge/VPN-Tailscale-blue?logo=tailscale&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firewalls-iptables%20%7C%20OpenWRT-critical?logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Active_Directory-Group_Policy%20%7C%20GPO-blue?logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/Password_Attacks-Hydra%20%7C%20RockYou-red?logoColor=white" />
 </p>
 
 ---
@@ -82,7 +91,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 ### Tools & Technologies
 
-**Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW) • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin) • FortiGate (FortiOS) • Web Filtering • SSL Inspection • Application Control • Intrusion Detection Systems
+**Network & Security:** Wireshark • Nmap • Nessus • Metasploit • Firewall Configuration (UFW, `iptables`) • OpenWRT Wireless Hardening • Antivirus Setup (ClamAV) • Browser Security (uBlock Origin) • FortiGate (FortiOS) • Web Filtering • SSL Inspection • Application Control • Intrusion Detection Systems • Hydra Password Auditing • Network Access Control (NAC)
 
 **SIEM & Log Management:** Wazuh • OpenSearch • OpenSearch Dashboard • Sysmon for Linux (EventID 1/3/5) • ISM (Index State Management) Policy Design • Index Lifecycle Management • OpenSearch REST API • Log Retention Strategy
 
@@ -96,7 +105,9 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 **AI & Automation:** LangChain (Chains · Prompts · Output Parsers) • Retrieval-Augmented Generation (RAG) • FAISS Vector Store • Semantic Document Retrieval • LLM API Integration (Groq / Llama 3) • Selenium WebDriver • ChromeDriver • Prompt Engineering & Template Design • Local AI Inference Pipelines
 
-**Active Directory:** Samba AD DC • samba-tool • Kerberos / NTLMv2 • OU Hierarchy Design • Honeytoken Account Injection
+**Active Directory:** Samba AD DC • samba-tool • Kerberos / NTLMv2 • OU Hierarchy Design & Scoping • Honeytoken Account Injection • Group Policy Objects (GPO) • Group Policy Management Console • Group Policy Preferences (GPP) • Administrative Templates • Account Lockout Policy Enforcement • Logon/Logoff Scripting • Local Security Policy Scoping • `gpresult` / RSoP Verification
+
+**Windows Administration:** Windows Server Backup • `wbadmin` • NTFS ACL Management • Volume Shadow Copy Service (VSS) • Local User/Account Provisioning • PowerShell Scripting
 
 **Virtualization & Cloud:** VMware Workstation • Oracle Cloud Infrastructure (OCI) • Tailscale Mesh VPN • Docker • Docker Compose • LVM Administration (pvresize · lvextend · resize2fs)
 
@@ -163,8 +174,8 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 <div align="center">
 
-<a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png">
-  <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png" alt="iApply Dashboard" width="860"/>
+<a href="./19-iapply-local-rag-application/screenshots/iApply-Dashboard.png">
+  <img src="./19-iapply-local-rag-application/screenshots/iApply-Dashboard.png" alt="iApply Dashboard" width="860"/>
 </a>
 
 <br/><sub><i>Dashboard - engine control center with live feed, session counter, and status indicator</i></sub>
@@ -174,46 +185,46 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 <table>
   <tr>
     <td align="center">
-      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png">
-        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Dashboard.png" width="220" alt="Dashboard"/>
+      <a href="./19-iapply-local-rag-application/screenshots/iApply-Dashboard.png">
+        <img src="./19-iapply-local-rag-application/screenshots/iApply-Dashboard.png" width="220" alt="Dashboard"/>
       </a>
       <br/><sub>Dashboard</sub>
     </td>
     <td align="center">
-      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Profile.png">
-        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Profile.png" width="220" alt="Master Profile"/>
+      <a href="./19-iapply-local-rag-application/screenshots/iApply-Profile.png">
+        <img src="./19-iapply-local-rag-application/screenshots/iApply-Profile.png" width="220" alt="Master Profile"/>
       </a>
       <br/><sub>Master Profile</sub>
     </td>
     <td align="center">
-      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Memory.png">
-        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Memory.png" width="220" alt="Memory Vault"/>
+      <a href="./19-iapply-local-rag-application/screenshots/iApply-Memory.png">
+        <img src="./19-iapply-local-rag-application/screenshots/iApply-Memory.png" width="220" alt="Memory Vault"/>
       </a>
       <br/><sub>Memory Vault</sub>
     </td>
     <td align="center">
-      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Filters.png">
-        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Filters.png" width="220" alt="Title Filters"/>
+      <a href="./19-iapply-local-rag-application/screenshots/iApply-Filters.png">
+        <img src="./19-iapply-local-rag-application/screenshots/iApply-Filters.png" width="220" alt="Title Filters"/>
       </a>
       <br/><sub>Title Filters</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-HUD.png">
-        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-HUD.png" width="220" alt="HUD"/>
+      <a href="./19-iapply-local-rag-application/screenshots/iApply-HUD.png">
+        <img src="./19-iapply-local-rag-application/screenshots/iApply-HUD.png" width="220" alt="HUD"/>
       </a>
       <br/><sub>HUD  -  Live Command Interface</sub>
     </td>
     <td align="center">
-      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Review.png">
-        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Review.png" width="220" alt="Review Queue"/>
+      <a href="./19-iapply-local-rag-application/screenshots/iApply-Review.png">
+        <img src="./19-iapply-local-rag-application/screenshots/iApply-Review.png" width="220" alt="Review Queue"/>
       </a>
       <br/><sub>Review Queue</sub>
     </td>
     <td align="center">
-      <a href="./19_iApply_Local_RAG_Application/screenshots/iApply-Settings.jpg">
-        <img src="./19_iApply_Local_RAG_Application/screenshots/iApply-Settings.jpg" width="220" alt="Settings"/>
+      <a href="./19-iapply-local-rag-application/screenshots/iApply-Settings.jpg">
+        <img src="./19-iapply-local-rag-application/screenshots/iApply-Settings.jpg" width="220" alt="Settings"/>
       </a>
       <br/><sub>Settings</sub>
     </td>
@@ -227,31 +238,40 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ## Portfolio Projects
 
-| Project Title                                                                                                                | Category                                                          |
-| :--------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------- |
-| [00. LeetCode Security Patterns](./00_leetcode_security_patterns/)                                                           | Algorithms / Software Engineering / Cybersecurity Applications    |
-| [01. Professional Statement](./01_professional_statement/)                                                                   | Career Development                                                |
-| [02. Analyzing Network Structure & Security](./02_analyzing_network_structure_and_security/)                                 | Network Security                                                  |
-| [03. Conducting a Security Audit](./03_conducting_a_security_audit/)                                                         | Risk Management                                                   |
-| [04. Identifying Vulnerabilities for a Small Business](./04_identifying_vulnerabilities_for_a_small_business/)               | Vulnerability Assessment                                          |
-| [05. Managing File Permissions in Linux](./05_managing_file_permissions_in_linux/)                                           | Linux Administration                                              |
-| [06. Applying Filters to SQL Queries](./06_applying_filters_to_sql_queries/)                                                 | SQL & Data Analysis                                               |
-| [07. Documenting an Incident Handler's Journal](./07_documenting_an_incident_handlers_journal/)                              | Incident Response                                                 |
-| [08. Importing & Parsing a Text File with Python](./08_importing_and_parsing_a_text_file/)                                   | Python & Automation                                               |
-| [09. Cloud Server Hardening with OCI](./09_cloud_server_hardening_with_oci/)                                                 | Cloud Security                                                    |
-| [10. Certifications](./10_certifications/)                                                                                   | Professional Development                                          |
-| [11. Data Integrity Verification Tool](./11_data_integrity_verifier/)                                                        | Cryptography / Java Development                                   |
-| [12. Vulnerability Assessment and Penetration Test for a SMB](./12_Vulnerability_Assessment_and_Penetration_Test_for_a_SMB/) | Vulnerability Assessment / Penetration Testing                    |
-| [13. Secure LAN File Share Configuration](./13_Secure_LAN_File_Share_Configuration/)                                         | Network Security / System Administration                          |
-| [14. Secure OS Migration and Endpoint Hardening](./14_secure_os_migration_and_endpoint_hardening_for_legacy_hardware/)       | OS Migration / Endpoint Security / Linux Hardening                |
-| [15. Port Reservation Forensic Investigation](./15_Port_Reservation_Forensic_Investigation/)                                 | Incident Response / Forensics Analysis / System Administration    |
-| [16. Secure NAS Migration & Legacy Hardening](./16_Secure_NAS_Migration_and_Legacy_Hardware_Repurposing/)                    | Network Security / System Admin / Disaster Recovery               |
-| [17. Secure Linux Dev Infrastructure & Hardening](./17_Secure_Linux_Dev_Infrastructure_and_Hardening/)                       | System Hardening / DevSecOps                                      |
-| [18. Linux System Recovery & Administrative Fail Safe](./18_Linux_System_Recovery_and_Administrative_Fail_Safe/)             | System Recovery / Forensics                                       |
-| [19. iApply - Local RAG Application](./19_iApply/)                                                                           | AI / RAG / LLM Integration / Secure Application Design            |
-| [20. Wazuh SIEM Availability Incident Response](./20_wazuh_siem_availability_incident_response/)                             | Incident Response / SIEM Operations / Linux System Administration |
-| [21. Wazuh SOC Lab: Samba AD Honeytoken Detection](./21_Wazuh_Samba_AD_Honeytoken_Lab/) | Detection Engineering / Active Directory / SIEM / MITRE ATT\&CK |
-| [22. Automated SIEM Ticketing and ChatOps Pipeline](./22_Automated_SIEM_Ticketing_and_ChatOps_Pipeline/) | SIEM Automation / ChatOps / Ticketing / Detection Engineering |
+| Project Title                                                                                                                | Category                                                           |
+| :----------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------ |
+| [00. LeetCode Security Patterns](./00-leetcode-security-patterns/)                                                            | Algorithms / Software Engineering / Cybersecurity Applications      |
+| [01. Professional Statement](./01-professional-statement/)                                                                    | Career Development                                                   |
+| [02. Analyzing Network Structure & Security](./02-analyzing-network-structure-and-security/)                                  | Network Security                                                      |
+| [03. Conducting a Security Audit](./03-conducting-a-security-audit/)                                                          | Risk Management                                                        |
+| [04. Identifying Vulnerabilities for a Small Business](./04-identifying-vulnerabilities-for-a-small-business/)                | Vulnerability Assessment                                                |
+| [05. Managing File Permissions in Linux](./05-managing-file-permissions-in-linux/)                                            | Linux Administration                                                     |
+| [06. Applying Filters to SQL Queries](./06-applying-filters-to-sql-queries/)                                                   | SQL & Data Analysis                                                        |
+| [07. Documenting an Incident Handler's Journal](./07-documenting-an-incident-handlers-journal/)                               | Incident Response                                                           |
+| [08. Importing & Parsing a Text File with Python](./08-importing-and-parsing-a-text-file/)                                    | Python & Automation                                                          |
+| [09. Cloud Server Hardening with OCI](./09-cloud-server-hardening-with-oci/)                                                  | Cloud Security                                                                |
+| [10. Certifications](./10-certifications/)                                                                                    | Professional Development                                                      |
+| [11. Data Integrity Verification Tool](./11-data-integrity-verifier/)                                                         | Cryptography / Java Development                                                |
+| [12. Vulnerability Assessment and Penetration Test for a SMB](./12-vulnerability-assessment-and-penetration-test-for-a-smb/)  | Vulnerability Assessment / Penetration Testing                                   |
+| [13. Secure LAN File Share Configuration](./13-secure-lan-file-share-configuration/)                                          | Network Security / System Administration                                         |
+| [14. Secure OS Migration and Endpoint Hardening](./14-secure-os-migration-and-endpoint-hardening-for-legacy-hardware/)        | OS Migration / Endpoint Security / Linux Hardening                                 |
+| [15. Port Reservation Forensic Investigation](./15-port-reservation-forensic-investigation/)                                  | Incident Response / Forensics Analysis / System Administration                      |
+| [16. Secure NAS Migration & Legacy Hardening](./16-secure-nas-migration-and-legacy-hardware-repurposing/)                     | Network Security / System Admin / Disaster Recovery                                  |
+| [17. Secure Linux Dev Infrastructure & Hardening](./17-secure-linux-dev-infrastructure-and-hardening/)                        | System Hardening / DevSecOps                                                          |
+| [18. Linux System Recovery & Administrative Fail Safe](./18-linux-system-recovery-and-administrative-fail-safe/)              | System Recovery / Forensics                                                             |
+| [19. iApply - Local RAG Application](./19-iapply-local-rag-application/)                                                      | AI / RAG / LLM Integration / Secure Application Design                                   |
+| [20. Wazuh SIEM Availability Incident Response](./20-wazuh-siem-availability-incident-response/)                              | Incident Response / SIEM Operations / Linux System Administration                        |
+| [21. Wazuh SOC Lab: Samba AD Honeytoken Detection](./21-wazuh-samba-ad-honeytoken-lab/)                                       | Detection Engineering / Active Directory / SIEM / MITRE ATT\&CK                            |
+| [22. Automated SIEM Ticketing and ChatOps Pipeline](./22-automated-siem-ticketing-and-chatops-pipeline/)                      | SIEM Automation / ChatOps / Ticketing / Detection Engineering                               |
+| [23. FTP Brute-Force & Plaintext Credential Traffic Analysis](./23-ftp-bruteforce-traffic-analysis/)                          | Network Traffic Analysis / Password Attacks / Wireshark                                     |
+| [24. Windows GPO Scripting & Troubleshooting](./24-windows-gpo-scripting-and-troubleshooting/)                                | Active Directory / Group Policy / Systematic Troubleshooting                                 |
+| [25. Linux Data Archival & Recovery Lab](./25-linux-data-archival-and-recovery/)                                              | Linux Administration / Backup & Disaster Recovery                                             |
+| [26. Linux User Provisioning & Forced Password Rotation](./26-linux-user-provisioning-and-forced-password-rotation/)          | Identity & Access Management / Linux Administration                                            |
+| [27. Windows Server Backup & ACL Preservation](./27-windows-server-backup-and-acl-preservation/)                              | Windows Administration / Backup & Disaster Recovery / NTFS ACLs                                 |
+| [28. Secure Wireless Access & Jump Box Hardening](./28-secure-wireless-access-and-jumpbox-hardening/)                         | Network Security / Host Hardening / Centralized Logging                                          |
+| [29. Dynamic Firewall Provisioning & Network Access Control](./29-dynamic-firewall-provisioning-and-nac/)                     | Network Security / iptables / Least Privilege Architecture                                        |
+| [30. Clipboard Race Condition Case Study](./30-clipboard-race-condition-case-study/)                                         | Security Engineering / Application Security / Root Cause Analysis                                  |
+| [31. Penetration Testing & Vulnerability Assessment Report](./31-penetration-test-and-vulnerability-assessment-report/)       | Penetration Testing / Metasploit / Exploitation & Post-Exploitation                                  |
 
 ---
 

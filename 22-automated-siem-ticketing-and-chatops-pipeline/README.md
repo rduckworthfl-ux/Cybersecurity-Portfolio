@@ -122,7 +122,7 @@ I also structured the Jira board to mirror a believable security workflow rather
 
 That matters because ticketing experience in security is not just opening an issue. It is being able to move an alert through triage, investigation, containment, review, and closure in a way that matches real incident handling.
 
-![Jira Kanban Board](./Assets/jira-kan-board.png)
+![Jira Kanban Board](./assets/jira-kan-board.png)
 
 ---
 
@@ -132,7 +132,7 @@ After wiring the integrations, I validated the full pipeline against the existin
 
 That was the point of the project. A good detection is valuable. A detection that reaches the analyst immediately, lands in the team's workflow, and produces a trackable case artifact is operational.
 
-![Discord Alerted](./Assets/discord-alerted.png)
+![Discord Alerted](./assets/discord-alerted.png)
 
 ---
 
@@ -195,7 +195,7 @@ It also shows a critical operational skill: I did not stop at alert generation. 
 
 ## Files Included
 
-Sanitized implementation artifacts are included in the `Files/` directory for reference:
+Sanitized implementation artifacts are included in the `files/` directory for reference:
 
 - `ossec-4.conf`
 - `custom-discord-2.py`
