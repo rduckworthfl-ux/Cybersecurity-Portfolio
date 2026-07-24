@@ -43,6 +43,17 @@
   </tr>
 </table>
 
+<br/>
+
+<p>
+  <a href="#skills--competencies">Skills</a> •
+  <a href="#flagship-project-vappler">Flagship Project</a> •
+  <a href="#iapply">iApply</a> •
+  <a href="#portfolio-projects">Portfolio Projects</a> •
+  <a href="./00-certifications/">Certifications</a> •
+  <a href="#contact">Contact</a>
+</p>
+
 </div>
 
 ---
@@ -52,7 +63,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 ---
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Linux-Kali%20%7C%20Ubuntu%20%7C%20Lubuntu-blue?logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Windows-Server%20%7C%20Client-blue?logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/Networking-Wireshark%20%7C%20Nmap%20%7C%20UFW-orange?logo=wireshark&logoColor=white" />
@@ -166,8 +177,6 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
   </a>
 </p>
 
-</div>
-
 ---
 
 ## Application Screenshots
@@ -275,10 +284,11 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 ---
 
+<div align="center">
+
 ## Contact
 
-**LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333)  
-**Email:** rduckworth@aspidasecurity.io
+**LinkedIn:** [linkedin.com/in/rduckworthfl333](https://www.linkedin.com/in/rduckworthfl333) • **Email:** [rduckworth@aspidasecurity.io](mailto:rduckworth@aspidasecurity.io)
 
 ---
 
