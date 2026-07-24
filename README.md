@@ -26,7 +26,7 @@
              alt="Fortinet Certified Associate in Cybersecurity" height="160"/>
       </a>
       <br/><sub><b>Fortinet Certified Associate<br/>in Cybersecurity</b></sub><br/>
-      <sub><a href="https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff">Credly</a> • <a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10-certifications/Fortinet%20Certified%20Associate%20in%20Cybersecurity.PDF.pdf">Certificate ↗</a></sub>
+      <sub><a href="https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff">Credly</a> • <a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/00-certifications/Fortinet%20Certified%20Associate%20in%20Cybersecurity.PDF.pdf">Certificate ↗</a></sub>
     </td>
     <td align="center" style="padding: 16px;">
       <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/fortinet-fortigate-7-6-operator.png"
@@ -38,7 +38,7 @@
       <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/ccna-introduction-to-networks.png"
            alt="CCNA: Introduction to Networks" height="160"/>
       <br/><sub><b>CCNA: Introduction<br/>to Networks</b></sub><br/>
-      <sub><a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/10-certifications/CCNA-_Introduction_to_Networks_certificate_rduckw2-live-spcollege-edu_537afdb4-09ae-4337-a685-a0d69d4846f4.pdf">Certificate ↗</a></sub>
+      <sub><a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/00-certifications/CCNA-_Introduction_to_Networks_certificate_rduckw2-live-spcollege-edu_537afdb4-09ae-4337-a685-a0d69d4846f4.pdf">Certificate ↗</a></sub>
     </td>
   </tr>
 </table>
@@ -240,6 +240,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 | Project Title                                                                                                                | Category                                                           |
 | :----------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------ |
+| [00. Certifications](./00-certifications/)                                                                                    | Professional Development                                                      |
 | [00. LeetCode Security Patterns](./00-leetcode-security-patterns/)                                                            | Algorithms / Software Engineering / Cybersecurity Applications      |
 | [01. Professional Statement](./01-professional-statement/)                                                                    | Career Development                                                   |
 | [02. Analyzing Network Structure & Security](./02-analyzing-network-structure-and-security/)                                  | Network Security                                                      |
@@ -250,7 +251,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [07. Documenting an Incident Handler's Journal](./07-documenting-an-incident-handlers-journal/)                               | Incident Response                                                           |
 | [08. Importing & Parsing a Text File with Python](./08-importing-and-parsing-a-text-file/)                                    | Python & Automation                                                          |
 | [09. Cloud Server Hardening with OCI](./09-cloud-server-hardening-with-oci/)                                                  | Cloud Security                                                                |
-| [10. Certifications](./10-certifications/)                                                                                    | Professional Development                                                      |
+| [10. Penetration Testing & Vulnerability Assessment Report](./10-penetration-test-and-vulnerability-assessment-report/)       | Penetration Testing / Metasploit / Exploitation & Post-Exploitation           |
 | [11. Data Integrity Verification Tool](./11-data-integrity-verifier/)                                                         | Cryptography / Java Development                                                |
 | [12. Vulnerability Assessment and Penetration Test for a SMB](./12-vulnerability-assessment-and-penetration-test-for-a-smb/)  | Vulnerability Assessment / Penetration Testing                                   |
 | [13. Secure LAN File Share Configuration](./13-secure-lan-file-share-configuration/)                                          | Network Security / System Administration                                         |
@@ -271,7 +272,6 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [28. Secure Wireless Access & Jump Box Hardening](./28-secure-wireless-access-and-jumpbox-hardening/)                         | Network Security / Host Hardening / Centralized Logging                                          |
 | [29. Dynamic Firewall Provisioning & Network Access Control](./29-dynamic-firewall-provisioning-and-nac/)                     | Network Security / iptables / Least Privilege Architecture                                        |
 | [30. Clipboard Race Condition Case Study](./30-clipboard-race-condition-case-study/)                                         | Security Engineering / Application Security / Root Cause Analysis                                  |
-| [31. Penetration Testing & Vulnerability Assessment Report](./31-penetration-test-and-vulnerability-assessment-report/)       | Penetration Testing / Metasploit / Exploitation & Post-Exploitation                                  |
 
 ---
 
