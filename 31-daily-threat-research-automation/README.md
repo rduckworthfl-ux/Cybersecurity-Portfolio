@@ -20,6 +20,20 @@ This project intentionally documents the parts that did not work on the first at
 
 ---
 
+## Live Output
+
+<div align="center">
+
+<img src="./assets/daily-threat-brief-notification.png" alt="Daily Threat Brief push notification on phone, showing a BLUF summary and ranked CVEs with impact, remediation, and source links" width="320"/>
+
+<br/>
+
+<sub><i>The finished brief exactly as it lands on the phone each morning: a Bottom Line Up Front summary followed by ranked vulnerabilities and breaches, each with impact, remediation, and a source link - generated and delivered with zero manual steps.</i></sub>
+
+</div>
+
+---
+
 ## Environment
 
 | Component      | Detail                                                              |
