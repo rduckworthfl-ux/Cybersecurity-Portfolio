@@ -162,30 +162,19 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-sd1.png">
-  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-sd1.png" alt="Vappler Security Dashboard" width="820"/>
+<a href="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-agents.png">
+  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-agents.png" alt="Vappler Agent Fleet Management" width="820"/>
 </a>
 
-<br/><sub><i>Security Dashboard - real-time vulnerability posture and risk summary across all client assets</i></sub>
+<br/><sub><i>Agent Fleet Management - enrollment, telemetry correlation, and quarantine controls</i></sub>
 
 <br/><br/>
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-agents.png">
-        <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-agents.png" width="400" alt="Vappler Agent Fleet Management"/>
-      </a>
-      <br/><sub>Agent Fleet Management - enrollment, telemetry correlation, and quarantine controls</sub>
-    </td>
-    <td align="center">
-      <a href="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-vulnerability-management.png">
-        <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-vulnerability-management.png" width="400" alt="Vappler Vulnerability Management"/>
-      </a>
-      <br/><sub>Vulnerability Management - CVSS/EPSS scoring, CISA KEV tracking, and triage filters</sub>
-    </td>
-  </tr>
-</table>
+<a href="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-vulnerability-management.png">
+  <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/vappler-vulnerability-management.png" alt="Vappler Vulnerability Management" width="820"/>
+</a>
+
+<br/><sub><i>Vulnerability Management - CVSS/EPSS scoring, CISA KEV tracking, and triage filters</i></sub>
 
 </div>
 
