@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily Cybersecurity Threat Brief
+
+[Service]
+Type=oneshot
+User=REPLACE_WITH_YOUR_USERNAME
+WorkingDirectory=/home/REPLACE_WITH_YOUR_USERNAME/projects/threat-brief
+Environment="GEMINI_API_KEY=REPLACE_WITH_YOUR_OWN_KEY"
+Environment="NTFY_TOPIC=REPLACE_WITH_YOUR_OWN_TOPIC"
+ExecStart=/home/REPLACE_WITH_YOUR_USERNAME/projects/threat-brief/venv/bin/python3 /home/REPLACE_WITH_YOUR_USERNAME/projects/threat-brief/brief.py

@@ -80,6 +80,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
   <img src="https://img.shields.io/badge/Firewalls-iptables%20%7C%20OpenWRT-critical?logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Active_Directory-Group_Policy%20%7C%20GPO-blue?logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/Password_Attacks-Hydra%20%7C%20RockYou-red?logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM_Automation-Gemini%20API%20%7C%20systemd%20Timers-8A2BE2?logoColor=white" />
 </p>
 
 ---
@@ -114,7 +115,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 **Backend Frameworks:** Flask • Gunicorn • Celery (Task Queue) • Redis (Message Broker)
 
-**AI & Automation:** LangChain (Chains · Prompts · Output Parsers) • Retrieval-Augmented Generation (RAG) • FAISS Vector Store • Semantic Document Retrieval • LLM API Integration (Groq / Llama 3) • Selenium WebDriver • ChromeDriver • Prompt Engineering & Template Design • Local AI Inference Pipelines
+**AI & Automation:** LangChain (Chains · Prompts · Output Parsers) • Retrieval-Augmented Generation (RAG) • FAISS Vector Store • Semantic Document Retrieval • LLM API Integration (Groq / Llama 3, Google Gemini) • Selenium WebDriver • ChromeDriver • Prompt Engineering & Template Design • Local AI Inference Pipelines • RSS/XML Ingestion (`feedparser`) • Push Notification Delivery (`ntfy`) • systemd Timers for Scheduled Automation
 
 **Active Directory:** Samba AD DC • samba-tool • Kerberos / NTLMv2 • OU Hierarchy Design & Scoping • Honeytoken Account Injection • Group Policy Objects (GPO) • Group Policy Management Console • Group Policy Preferences (GPP) • Administrative Templates • Account Lockout Policy Enforcement • Logon/Logoff Scripting • Local Security Policy Scoping • `gpresult` / RSoP Verification
 
@@ -281,6 +282,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 | [28. Secure Wireless Access & Jump Box Hardening](./28-secure-wireless-access-and-jumpbox-hardening/)                         | Network Security / Host Hardening / Centralized Logging                                          |
 | [29. Dynamic Firewall Provisioning & Network Access Control](./29-dynamic-firewall-provisioning-and-nac/)                     | Network Security / iptables / Least Privilege Architecture                                        |
 | [30. Clipboard Race Condition Case Study](./30-clipboard-race-condition-case-study/)                                         | Security Engineering / Application Security / Root Cause Analysis                                  |
+| [31. Daily Threat Brief: RSS-to-LLM Automation Pipeline](./31-daily-threat-research-automation/)                             | Security Automation / LLM Integration / Threat Intelligence                                          |
 
 ---
 
