@@ -30,6 +30,12 @@ Professional certifications and verified digital credentials earned in cybersecu
       </a>
       <br/><sub><b>CCNA: Introduction<br/>to Networks</b></sub>
     </td>
+    <td align="center" style="padding: 16px;">
+      <a href="https://badgr.com/public/assertions/AQjpp22BSHOsb8k3TGB1HA">
+        <img src="../spc-fundamentals-of-written-communication.png" alt="Fundamentals of Written Communication" width="160"/>
+      </a>
+      <br/><sub><b>Fundamentals of<br/>Written Communication</b></sub>
+    </td>
   </tr>
 </table>
 
@@ -45,6 +51,7 @@ Professional certifications and verified digital credentials earned in cybersecu
 | **Fortinet Certified Associate in Cybersecurity** | Fortinet | Achieved Mar 9, 2026 · Valid until Mar 9, 2028 | [Credly Badge](https://www.credly.com/earner/earned/badge/77f49afa-bb70-4b71-a741-4f529794e6ff) • Validation No. `8974680442RD` ([verify](https://training.fortinet.com/admin/tool/certificate/index.php)) | [Certificate PDF](<./Fortinet Certified Associate in Cybersecurity.PDF.pdf>) |
 | **NSE 3 – FortiGate Operator Exam v7.6** | Fortinet (NSE Training Institute) | — | [Fortinet NSE Program](https://training.fortinet.com) | *(exam completion badge; no downloadable certificate issued)* |
 | **CCNA: Introduction to Networks** | Cisco Networking Academy, via St. Petersburg College | Completion Date: Jul 20, 2026 | Cert ID `537afdb4-09ae-4337-a685-a0d69d4846f4` · Instructor: Michael Gordon | [Certificate PDF](./CCNA-_Introduction_to_Networks_certificate_rduckw2-live-spcollege-edu_537afdb4-09ae-4337-a685-a0d69d4846f4.pdf) |
+| **Fundamentals of Written Communication** (Competency Badge) | St. Petersburg College | Issued Aug 3, 2026 | [Verify Badge](https://badgr.com/public/assertions/AQjpp22BSHOsb8k3TGB1HA) (Open Badge, via Badgr/Parchment) | *(digital badge; no separate PDF issued)* |
 
 ---
 

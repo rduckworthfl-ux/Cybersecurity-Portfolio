@@ -40,6 +40,14 @@
       <br/><sub><b>CCNA: Introduction<br/>to Networks</b></sub><br/>
       <sub><a href="https://github.com/rduckworthfl-ux/Cybersecurity-Portfolio/blob/main/00-certifications/CCNA-_Introduction_to_Networks_certificate_rduckw2-live-spcollege-edu_537afdb4-09ae-4337-a685-a0d69d4846f4.pdf">Certificate ↗</a></sub>
     </td>
+    <td align="center" style="padding: 16px;">
+      <a href="https://badgr.com/public/assertions/AQjpp22BSHOsb8k3TGB1HA">
+        <img src="https://raw.githubusercontent.com/rduckworthfl-ux/Cybersecurity-Portfolio/main/spc-fundamentals-of-written-communication.png"
+             alt="Fundamentals of Written Communication" height="160"/>
+      </a>
+      <br/><sub><b>Fundamentals of<br/>Written Communication</b></sub><br/>
+      <sub><a href="https://badgr.com/public/assertions/AQjpp22BSHOsb8k3TGB1HA">Verify Badge ↗</a></sub>
+    </td>
   </tr>
 </table>
 
