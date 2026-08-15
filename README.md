@@ -81,6 +81,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
   <img src="https://img.shields.io/badge/Active_Directory-Group_Policy%20%7C%20GPO-blue?logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/Password_Attacks-Hydra%20%7C%20RockYou-red?logoColor=white" />
   <img src="https://img.shields.io/badge/LLM_Automation-Gemini%20API%20%7C%20systemd%20Timers-8A2BE2?logoColor=white" />
+  <img src="https://img.shields.io/badge/Incident_Response-Root_Cause_Analysis%20%7C%20Self_Healing_Systems-critical?logoColor=white" />
 </p>
 
 ---
@@ -127,7 +128,7 @@ Strong foundation in **threat detection, incident response, and vulnerability ma
 
 **Forensics & Analysis:** Packet Capture • Vulnerability Scanning • System Auditing • Docker Volume Inspection • Container Lifecycle Forensics
 
-**Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis • SIEM Availability Incident Response • NIST SP 800-61 Incident Handling
+**Incident Response & Forensics:** Windows Event Log Analysis • Process Timeline Reconstruction • CVSS Risk Assessment • Forensic Investigation • Malware Detection • System Compromise Analysis • Root Cause Analysis • SIEM Availability Incident Response • NIST SP 800-61 Incident Handling • Distributed Systems Failure Analysis • Race Condition Diagnosis • Self-Healing System Design • Audit Log Correlation
 
 ### Operating Systems
 
@@ -262,6 +263,7 @@ Check out the [Vappler GitHub repository](https://github.com/aspida-security/vap
 
 | Project Title                                                                                                                | Category                                                           |
 | :----------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------ |
+| [32. Diagnosing a Self-Inflicted Agent Compromise in a Token-Rotation Auth Scheme](./32-agent-heartbeat-self-compromise-ir/) | Incident Response / Root Cause Analysis / Distributed Systems Debugging                             |
 | [31. Daily Threat Brief: RSS-to-LLM Automation Pipeline](./31-daily-threat-research-automation/)                             | Security Automation / LLM Integration / Threat Intelligence                                          |
 | [30. Clipboard Race Condition Case Study](./30-clipboard-race-condition-case-study/)                                         | Security Engineering / Application Security / Root Cause Analysis                                  |
 | [29. Dynamic Firewall Provisioning & Network Access Control](./29-dynamic-firewall-provisioning-and-nac/)                     | Network Security / iptables / Least Privilege Architecture                                        |

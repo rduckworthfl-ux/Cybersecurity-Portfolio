@@ -1044,3 +1044,37 @@ The fact that removing the indexer-data volume (20MB) made zero visible differen
 Both root causes are fixed. ISM policy is live. LV is extended to the full 80GB allocation. This won't happen again the same way.
 
 ---
+
+## Entry 8: Self-Inflicted Endpoint Agent Compromise — Token-Rotation Race Condition
+
+**Date:** 08/02/2026
+**Entry:** 8
+
+### Description
+
+A healthy, fully patched endpoint agent on a home lab host was automatically marked "compromised" after a single dropped heartbeat response — no attacker involved. Root-caused to a race between the backend's replay-detection grace window and the agent's own restart-on-failure supervisor, then fixed, tested, and verified in production. Full write-up: [Project 32 — Diagnosing a Self-Inflicted Agent Compromise](../32-agent-heartbeat-self-compromise-ir/).
+
+### Tool(s) used
+
+- Application/audit log review (token rotation event history)
+- Timeline correlation (systemd restart interval vs. server grace window)
+- TDD (red/green unit tests + live integration reproduction)
+- Production verification (re-enrollment, 24+ hour uptime monitoring)
+
+### The 5 W's
+
+- **Who caused the incident?** No attacker. Two independently reasonable pieces of logic — a server-side replay grace window and a client-side "exit on rejection" default — interacting badly under a normal network timeout.
+- **What happened?** A single dropped heartbeat response pushed the agent's next retry outside the server's grace window, triggering a suspend; the agent's own systemd supervisor then relaunched it with the same stale token seconds later, triggering an automatic escalation to compromised.
+- **When did it occur?** Roughly 40 minutes into a routine agent enrollment test, August 2, 2026.
+- **Where did it happen?** A physical Linux endpoint in my home lab, authenticating to an internal backend API over Tailscale.
+- **Why did it happen?** The server's 120-second replay-grace window is structurally shorter than the agent's 300-second heartbeat interval, so any single lost response guarantees a suspend; the agent's crash-and-restart behavior on that suspend then guaranteed the second strike.
+
+### Additional Notes
+
+My first proposed fix (backoff-and-retry with the same token) would not have worked — I caught this by re-reading the server's actual suspended-branch logic before implementing it, rather than trusting that the idea "sounded right." The real fix left the server's security control completely untouched and instead corrected the client's retry/pause behavior. Regression-tested to confirm the underlying replay defense still fires correctly and unmodified.
+
+### Reflections/Notes
+
+The best part of this one wasn't the fix — it was catching my own first instinct before it shipped. Two individually correct components can still compose into a bug, and the only way to find that is to trace the actual event sequence instead of guessing from symptoms.
+
+---
