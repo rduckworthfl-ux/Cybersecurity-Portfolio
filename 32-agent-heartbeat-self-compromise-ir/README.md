@@ -110,7 +110,7 @@ IF v_agent.suspended THEN
 END IF;
 ```
 
-That branch doesn't care how long you waited. It fires on the next presentation, period. A timed backoff would not have prevented the escalation - it would have just delayed it by however many seconds I picked, while looking like it worked in a quick test. Given that a real human noticing a suspended agent and pushing a new token realistically takes minutes to hours, there was no backoff duration short enough to be useful and long enough to actually avoid the second strike. I would have shipped something that felt like a fix and wasn't.
+That branch doesn't care how long you waited. It fires on the next presentation, period. A timed backoff would not have prevented the escalation - it would have just delayed it by however many seconds I picked, while looking like it worked in a quick test. Given that a person noticing a suspended agent and pushing a new token realistically takes minutes to hours, there was no backoff duration short enough to be useful and long enough to actually avoid the second strike. I would have shipped something that felt like a fix and wasn't.
 
 ---
 
@@ -150,7 +150,7 @@ def send_heartbeat(self):
         sys.exit(1)
 ```
 
-The important line in that whole thing is the difference between the 403 and 401 branches. 403 pauses and waits for a human. 401 is genuinely terminal and still exits, because that state actually does require re-enrollment and pretending otherwise would be wrong.
+The important line in that whole thing is the difference between the 403 and 401 branches. 403 pauses and waits for a person. 401 is genuinely terminal and still exits, because that state actually does require re-enrollment and pretending otherwise would be wrong.
 
 ---
 
