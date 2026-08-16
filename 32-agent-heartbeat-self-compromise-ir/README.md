@@ -23,28 +23,28 @@ This isn't a lab exercise. This happened on infrastructure I run, to software I'
 The platform runs a small fleet of endpoint agents that authenticate to a central Flask API backed by PostgreSQL. Agents enroll once with a short-lived enrollment token, exchange it for an operational token, and then rotate that operational token on every heartbeat. The rotation is the security control - if an agent ever presents a stale, already-rotated token, the server treats that as a possible replay attack.
 
 ```
-            ┌─────────────────────────────┐
-            │   Backend API (Flask)        │
-            │   internal Tailscale mesh    │
-            └───────────────┬───────────────┘
-                            │
+            ┌─────────────────────────────────────┐
+            │ Backend API (Flask)                 │
+            │ internal Tailscale mesh             │
+            └─────────────────────────────────────┘
+                               │
               heartbeat every 300s,
               token rotates on every call
-                            │
-            ┌───────────────▼───────────────┐
-            │   PostgreSQL                    │
-            │   token-rotation function        │
-            │   agent audit log table           │
-            └───────────────┬───────────────────┘
-                            │
+                               │
+            ┌──────────────────▼──────────────────┐
+            │ PostgreSQL                          │
+            │ token-rotation function             │
+            │ agent audit log table               │
+            └─────────────────────────────────────┘
+                               │
               suspend (403) on stale rotation
               compromise (401) on second strike
-                            │
-            ┌───────────────▼───────────────────┐
-            │   Endpoint agent                    │
-            │   systemd service, Restart=on-failure │
-            │   RestartSec=30                        │
-            └────────────────────────────────────────┘
+                               │
+            ┌──────────────────▼──────────────────┐
+            │ Endpoint agent                      │
+            │ systemd service, Restart=on-failure │
+            │ RestartSec=30                       │
+            └─────────────────────────────────────┘
 ```
 
 The agent itself is a Python daemon, distributed as a signed binary, installed as a systemd service with a hardened unit file (`NoNewPrivileges`, `ProtectSystem=strict`, `PrivateTmp`, `ProtectHome`).
